@@ -46,6 +46,7 @@ function App() {
       <header>
         <h1>
           肺炎疫情实时动态
+          <small>新行冠状病毒</small>
         </h1>
       </header>
       <div className="card">

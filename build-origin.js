@@ -24,7 +24,13 @@ const loadCityList = async data => {
         style: pinyin.STYLE_NORMAL
       }).map(x => x[0]).join(''),
       name: p.provinceShortName,
-      ...p
+      ...p,
+      cities: p.cities.map(city => {
+        return {
+          ...city,
+          cityName: city.cityName + '市'
+        }
+      })
     }
   }), null, 2)
   fs.writeFileSync('./src/data/area.json', result)
