@@ -43,6 +43,6 @@ jobs:
     - name: cp files to aliyun
       run: ossutil cp -rf build oss://shanyue-ncov/
     - name: set no-cache in sw.js
-      run: ossutil set-meta oss://shanyue-ncov/service-worker.js cache-control:"no-cache" --update -rf
+      run: ossutil set-meta oss://shanyue-ncov/index.html cache-control:"no-cache" --update -rf
     - name: set long term cache
       run: ossutil set-meta oss://shanyue-ncov/static cache-control:"max-age=31536000" --update -rf

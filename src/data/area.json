@@ -147,7 +147,7 @@
     "provinceShortName": "广东",
     "confirmedCount": 151,
     "suspectedCount": 0,
-    "curedCount": 3,
+    "curedCount": 4,
     "deadCount": 0,
     "comment": "",
     "cities": [
@@ -163,7 +163,7 @@
         "cityName": "深圳",
         "confirmedCount": 36,
         "suspectedCount": 0,
-        "curedCount": 3,
+        "curedCount": 4,
         "deadCount": 0,
         "fullCityName": "深圳市"
       },
@@ -1104,6 +1104,107 @@
     ]
   },
   {
+    "pinyin": "jiangxi",
+    "name": "江西",
+    "provinceName": "江西省",
+    "provinceShortName": "江西",
+    "confirmedCount": 72,
+    "suspectedCount": 0,
+    "curedCount": 1,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "南昌",
+        "confirmedCount": 17,
+        "suspectedCount": 0,
+        "curedCount": 1,
+        "deadCount": 0,
+        "fullCityName": "南昌市"
+      },
+      {
+        "cityName": "赣州",
+        "confirmedCount": 10,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "赣州市"
+      },
+      {
+        "cityName": "宜春",
+        "confirmedCount": 10,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "宜春市"
+      },
+      {
+        "cityName": "九江",
+        "confirmedCount": 9,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "九江市"
+      },
+      {
+        "cityName": "抚州",
+        "confirmedCount": 8,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "抚州市"
+      },
+      {
+        "cityName": "上饶",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "上饶市"
+      },
+      {
+        "cityName": "新余",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "新余市"
+      },
+      {
+        "cityName": "吉安",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 1,
+        "deadCount": 0,
+        "fullCityName": "吉安市"
+      },
+      {
+        "cityName": "萍乡",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 1,
+        "deadCount": 0,
+        "fullCityName": "萍乡市"
+      },
+      {
+        "cityName": "景德镇",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "景德镇市"
+      },
+      {
+        "cityName": "鹰潭",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "鹰潭市"
+      }
+    ]
+  },
+  {
     "pinyin": "anhui",
     "name": "安徽",
     "provinceName": "安徽省",
@@ -1576,99 +1677,6 @@
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "奉贤区"
-      }
-    ]
-  },
-  {
-    "pinyin": "jiangxi",
-    "name": "江西",
-    "provinceName": "江西省",
-    "provinceShortName": "江西",
-    "confirmedCount": 48,
-    "suspectedCount": 0,
-    "curedCount": 1,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [
-      {
-        "cityName": "南昌",
-        "confirmedCount": 8,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "南昌市"
-      },
-      {
-        "cityName": "赣州",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "赣州市"
-      },
-      {
-        "cityName": "抚州",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "抚州市"
-      },
-      {
-        "cityName": "上饶",
-        "confirmedCount": 6,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "上饶市"
-      },
-      {
-        "cityName": "宜春",
-        "confirmedCount": 6,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "宜春市"
-      },
-      {
-        "cityName": "九江",
-        "confirmedCount": 4,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "九江市"
-      },
-      {
-        "cityName": "吉安",
-        "confirmedCount": 3,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "吉安市"
-      },
-      {
-        "cityName": "新余",
-        "confirmedCount": 3,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "新余市"
-      },
-      {
-        "cityName": "萍乡",
-        "confirmedCount": 2,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "萍乡市"
-      },
-      {
-        "cityName": "景德镇",
-        "confirmedCount": 2,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "景德镇市"
       }
     ]
   },
