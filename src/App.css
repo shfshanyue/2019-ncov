@@ -15,11 +15,25 @@
   text-align: center;
 }
 
+.province.header > div {
+  background-color: #f60;
+  color: #fcfcfc;
+}
+
+.area,
+.confirmed,
+.death,
+.cured {
+  border: 1px solid #fff;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .area {
   flex: 3;
   padding: .4rem 0;
-  border: 1px solid #fff;
-  background-color: #f8f8f8;
 }
 
 .confirmed,
@@ -27,6 +41,4 @@
 .cured {
   padding: .3rem 0;
   flex: 2;
-  border: 1px solid #fff;
-  background-color: #f8f8f8;
 }

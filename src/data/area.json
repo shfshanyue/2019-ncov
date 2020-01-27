@@ -1,10 +1,12 @@
 [
   {
+    "pinyin": "hubei",
+    "name": "湖北",
     "provinceName": "湖北省",
     "provinceShortName": "湖北",
     "confirmedCount": 1423,
     "suspectedCount": 0,
-    "curedCount": 45,
+    "curedCount": 47,
     "deadCount": 76,
     "comment": "",
     "cities": [
@@ -19,7 +21,7 @@
         "cityName": "黄冈",
         "confirmedCount": 154,
         "suspectedCount": 0,
-        "curedCount": 2,
+        "curedCount": 4,
         "deadCount": 4
       },
       {
@@ -120,17 +122,11 @@
         "curedCount": 0,
         "deadCount": 1
       }
-    ],
-    "provincePinyin": [
-      [
-        "hú"
-      ],
-      [
-        "běi"
-      ]
     ]
   },
   {
+    "pinyin": "guangdong",
+    "name": "广东",
     "provinceName": "广东省",
     "provinceShortName": "广东",
     "confirmedCount": 146,
@@ -251,17 +247,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "guǎng"
-      ],
-      [
-        "dōng"
-      ]
     ]
   },
   {
+    "pinyin": "zhejiang",
+    "name": "浙江",
     "provinceName": "浙江省",
     "provinceShortName": "浙江",
     "confirmedCount": 128,
@@ -347,17 +337,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "zhè"
-      ],
-      [
-        "jiāng"
-      ]
     ]
   },
   {
+    "pinyin": "henan",
+    "name": "河南",
     "provinceName": "河南省",
     "provinceShortName": "河南",
     "confirmedCount": 128,
@@ -471,17 +455,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "hé"
-      ],
-      [
-        "nán"
-      ]
     ]
   },
   {
+    "pinyin": "zhongqing",
+    "name": "重庆",
     "provinceName": "重庆市",
     "provinceShortName": "重庆",
     "confirmedCount": 110,
@@ -693,17 +671,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "zhòng"
-      ],
-      [
-        "qìng"
-      ]
     ]
   },
   {
+    "pinyin": "hunan",
+    "name": "湖南",
     "provinceName": "湖南省",
     "provinceShortName": "湖南",
     "confirmedCount": 100,
@@ -803,22 +775,16 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "hú"
-      ],
-      [
-        "nán"
-      ]
     ]
   },
   {
+    "pinyin": "shandong",
+    "name": "山东",
     "provinceName": "山东省",
     "provinceShortName": "山东",
     "confirmedCount": 75,
     "suspectedCount": 0,
-    "curedCount": 0,
+    "curedCount": 1,
     "deadCount": 0,
     "comment": "",
     "cities": [
@@ -826,7 +792,7 @@
         "cityName": "青岛",
         "confirmedCount": 13,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 1,
         "deadCount": 0
       },
       {
@@ -920,17 +886,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "shān"
-      ],
-      [
-        "dōng"
-      ]
     ]
   },
   {
+    "pinyin": "beijing",
+    "name": "北京",
     "provinceName": "北京市",
     "provinceShortName": "北京",
     "confirmedCount": 72,
@@ -1016,17 +976,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "běi"
-      ],
-      [
-        "jīng"
-      ]
     ]
   },
   {
+    "pinyin": "anhui",
+    "name": "安徽",
     "provinceName": "安徽省",
     "provinceShortName": "安徽",
     "confirmedCount": 70,
@@ -1147,17 +1101,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "ān"
-      ],
-      [
-        "huī"
-      ]
     ]
   },
   {
+    "pinyin": "sichuan",
+    "name": "四川",
     "provinceName": "四川省",
     "provinceShortName": "四川",
     "confirmedCount": 69,
@@ -1285,17 +1233,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "sì"
-      ],
-      [
-        "chuān"
-      ]
     ]
   },
   {
+    "pinyin": "fujian",
+    "name": "福建",
     "provinceName": "福建省",
     "provinceShortName": "福建",
     "confirmedCount": 56,
@@ -1360,17 +1302,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "fú"
-      ],
-      [
-        "jiàn"
-      ]
     ]
   },
   {
+    "pinyin": "shanghai",
+    "name": "上海",
     "provinceName": "上海市",
     "provinceShortName": "上海",
     "confirmedCount": 53,
@@ -1463,17 +1399,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "shàng"
-      ],
-      [
-        "hǎi"
-      ]
     ]
   },
   {
+    "pinyin": "jiangxi",
+    "name": "江西",
     "provinceName": "江西省",
     "provinceShortName": "江西",
     "confirmedCount": 48,
@@ -1552,17 +1482,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "jiāng"
-      ],
-      [
-        "xī"
-      ]
     ]
   },
   {
+    "pinyin": "jiangsu",
+    "name": "江苏",
     "provinceName": "江苏省",
     "provinceShortName": "江苏",
     "confirmedCount": 47,
@@ -1662,17 +1586,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "jiāng"
-      ],
-      [
-        "sū"
-      ]
     ]
   },
   {
+    "pinyin": "guangxi",
+    "name": "广西",
     "provinceName": "广西壮族自治区",
     "provinceShortName": "广西",
     "confirmedCount": 46,
@@ -1744,17 +1662,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "guǎng"
-      ],
-      [
-        "xī"
-      ]
     ]
   },
   {
+    "pinyin": "shanxi",
+    "name": "陕西",
     "provinceName": "陕西省",
     "provinceShortName": "陕西",
     "confirmedCount": 35,
@@ -1819,17 +1731,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "shǎn"
-      ],
-      [
-        "xī"
-      ]
     ]
   },
   {
+    "pinyin": "hainan",
+    "name": "海南",
     "provinceName": "海南省",
     "provinceShortName": "海南",
     "confirmedCount": 31,
@@ -1887,17 +1793,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "hǎi"
-      ],
-      [
-        "nán"
-      ]
     ]
   },
   {
+    "pinyin": "liaoning",
+    "name": "辽宁",
     "provinceName": "辽宁省",
     "provinceShortName": "辽宁",
     "confirmedCount": 24,
@@ -1969,17 +1869,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "liáo"
-      ],
-      [
-        "níng"
-      ]
     ]
   },
   {
+    "pinyin": "heilongjiang",
+    "name": "黑龙江",
     "provinceName": "黑龙江省",
     "provinceShortName": "黑龙江",
     "confirmedCount": 21,
@@ -2044,20 +1938,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "hēi"
-      ],
-      [
-        "lóng"
-      ],
-      [
-        "jiāng"
-      ]
     ]
   },
   {
+    "pinyin": "yunnan",
+    "name": "云南",
     "provinceName": "云南省",
     "provinceShortName": "云南",
     "confirmedCount": 19,
@@ -2136,17 +2021,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "yún"
-      ],
-      [
-        "nán"
-      ]
     ]
   },
   {
+    "pinyin": "tianjin",
+    "name": "天津",
     "provinceName": "天津市",
     "provinceShortName": "天津",
     "confirmedCount": 18,
@@ -2218,17 +2097,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "tiān"
-      ],
-      [
-        "jīn"
-      ]
     ]
   },
   {
+    "pinyin": "hebei",
+    "name": "河北",
     "provinceName": "河北省",
     "provinceShortName": "河北",
     "confirmedCount": 18,
@@ -2286,17 +2159,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "hé"
-      ],
-      [
-        "běi"
-      ]
     ]
   },
   {
+    "pinyin": "gansu",
+    "name": "甘肃",
     "provinceName": "甘肃省",
     "provinceShortName": "甘肃",
     "confirmedCount": 14,
@@ -2347,17 +2214,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "gān"
-      ],
-      [
-        "sù"
-      ]
     ]
   },
   {
+    "pinyin": "shanxi",
+    "name": "山西",
     "provinceName": "山西省",
     "provinceShortName": "山西",
     "confirmedCount": 13,
@@ -2429,17 +2290,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "shān"
-      ],
-      [
-        "xī"
-      ]
     ]
   },
   {
+    "pinyin": "neimenggu",
+    "name": "内蒙古",
     "provinceName": "内蒙古自治区",
     "provinceShortName": "内蒙古",
     "confirmedCount": 11,
@@ -2518,20 +2373,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "nèi"
-      ],
-      [
-        "mēng"
-      ],
-      [
-        "gǔ"
-      ]
     ]
   },
   {
+    "pinyin": "xianggang",
+    "name": "香港",
     "provinceName": "香港",
     "provinceShortName": "香港",
     "confirmedCount": 8,
@@ -2539,17 +2385,11 @@
     "curedCount": 0,
     "deadCount": 0,
     "comment": "",
-    "cities": [],
-    "provincePinyin": [
-      [
-        "xiāng"
-      ],
-      [
-        "gǎng"
-      ]
-    ]
+    "cities": []
   },
   {
+    "pinyin": "guizhou",
+    "name": "贵州",
     "provinceName": "贵州省",
     "provinceShortName": "贵州",
     "confirmedCount": 7,
@@ -2593,17 +2433,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "guì"
-      ],
-      [
-        "zhōu"
-      ]
     ]
   },
   {
+    "pinyin": "ningxia",
+    "name": "宁夏",
     "provinceName": "宁夏回族自治区",
     "provinceShortName": "宁夏",
     "confirmedCount": 7,
@@ -2633,17 +2467,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "níng"
-      ],
-      [
-        "xià"
-      ]
     ]
   },
   {
+    "pinyin": "jilin",
+    "name": "吉林",
     "provinceName": "吉林省",
     "provinceShortName": "吉林",
     "confirmedCount": 6,
@@ -2680,17 +2508,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "jí"
-      ],
-      [
-        "lín"
-      ]
     ]
   },
   {
+    "pinyin": "aomen",
+    "name": "澳门",
     "provinceName": "澳门",
     "provinceShortName": "澳门",
     "confirmedCount": 6,
@@ -2698,17 +2520,11 @@
     "curedCount": 0,
     "deadCount": 0,
     "comment": "",
-    "cities": [],
-    "provincePinyin": [
-      [
-        "ào"
-      ],
-      [
-        "mén"
-      ]
-    ]
+    "cities": []
   },
   {
+    "pinyin": "taiwan",
+    "name": "台湾",
     "provinceName": "台湾",
     "provinceShortName": "台湾",
     "confirmedCount": 5,
@@ -2716,17 +2532,11 @@
     "curedCount": 0,
     "deadCount": 0,
     "comment": "",
-    "cities": [],
-    "provincePinyin": [
-      [
-        "tái"
-      ],
-      [
-        "wān"
-      ]
-    ]
+    "cities": []
   },
   {
+    "pinyin": "xinjiang",
+    "name": "新疆",
     "provinceName": "新疆维吾尔自治区",
     "provinceShortName": "新疆",
     "confirmedCount": 5,
@@ -2749,17 +2559,11 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "xīn"
-      ],
-      [
-        "jiāng"
-      ]
     ]
   },
   {
+    "pinyin": "qinghai",
+    "name": "青海",
     "provinceName": "青海省",
     "provinceShortName": "青海",
     "confirmedCount": 4,
@@ -2775,14 +2579,6 @@
         "curedCount": 0,
         "deadCount": 0
       }
-    ],
-    "provincePinyin": [
-      [
-        "qīng"
-      ],
-      [
-        "hǎi"
-      ]
     ]
   }
 ]

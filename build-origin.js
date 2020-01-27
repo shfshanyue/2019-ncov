@@ -20,8 +20,11 @@ const loadCityList = async data => {
   const provinces = JSON.parse(cityList)
   const result = JSON.stringify(provinces.map(p => {
     return {
-      ...p,
-      provincePinyin: pinyin(p.provinceShortName)
+      pinyin: pinyin(p.provinceShortName, {
+        style: pinyin.STYLE_NORMAL
+      }).map(x => x[0]).join(''),
+      name: p.provinceShortName,
+      ...p
     }
   }), null, 2)
   fs.writeFileSync('./src/data/area.json', result)

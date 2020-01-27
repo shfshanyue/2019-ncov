@@ -1,21 +1,15 @@
 import React from 'react'
 import ReactEcharts from 'echarts-for-react'
-import provinces from './data/area.json'
-import { keyBy } from 'lodash'
 
-const provincesByName = keyBy(provinces, 'provinceShortName')
+import 'echarts/map/js/china.js'
+import 'echarts/map/js/province/shanxi'
 
-require('echarts/map/js/china.js')
+function Map ({ province, data }) {
+  if (province) {
+    require(`echarts/map/js/province/${province.pinyin}`)
+  }
 
-function Map () {
-  const getOption = (province) => {
-    const data = !province ? provinces.map(p => ({
-      name: p.provinceShortName,
-      value: p.confirmedCount
-    })) : provincesByName[province || '山西'].cities.map(city => ({
-      name: city.cityName,
-      value: city.confirmedCount
-    }))
+  const getOption = () => {
     return {
       visualMap: {
         show: true,
@@ -44,19 +38,23 @@ function Map () {
         showLabel: true,
         itemWidth: 10,
         itemHeight: 10,
+        textStyle: {
+          fontSize: 10
+        }
         // "borderWidth": 0
       },
       series: [{
         left: 'center',
         type: 'map',
         name: '确诊人数',
+        silent: true,
         label: {
           show: true,
           position: 'top',
           margin: 8,
           fontSize: 5,
         },
-        mapType: 'china',
+        mapType: province ? province.name : 'china',
         data,
         zoom: 1.2,
         roam: false,
@@ -72,7 +70,7 @@ function Map () {
     }
   }
   return (
-    <ReactEcharts option={getOption()} />
+    <ReactEcharts option={getOption()} lazyUpdate={true} />
   )
 }
 
