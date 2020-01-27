@@ -7,9 +7,11 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "dayjs": "^1.8.19",
     "echarts": "^4.6.0",
     "echarts-for-react": "^2.0.15-beta.1",
     "lodash": "^4.17.15",
+    "pinyin": "^2.9.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0"

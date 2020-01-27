@@ -54,7 +54,7 @@ function Map () {
           show: true,
           position: 'top',
           margin: 8,
-          fontSize: 5
+          fontSize: 5,
         },
         mapType: 'china',
         data,

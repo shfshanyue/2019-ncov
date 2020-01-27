@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  background-color: #efefef;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  background-image: url(./feiyan.png);
+  padding: 1rem;
+  background-position: center;
+  background-size: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  margin: .5rem 0;
+  padding: 3px 10px;
+  border-left: .2rem solid #f60;
+  border-bottom: 1px solid #efefef;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 10px 0;
 }
