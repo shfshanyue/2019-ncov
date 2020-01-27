@@ -5,7 +5,8 @@ on:
     barches:
       - master
   schedule:
-  - cron:  '*/30 * * * *'
+  - cron:  '*/15 0-17 * * *'
+  - cron:  '0 18-23 * * *'
 
 jobs:
   build:
