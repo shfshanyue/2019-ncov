@@ -878,6 +878,107 @@
     ]
   },
   {
+    "pinyin": "beijing",
+    "name": "北京",
+    "provinceName": "北京市",
+    "provinceShortName": "北京",
+    "confirmedCount": 80,
+    "suspectedCount": 0,
+    "curedCount": 2,
+    "deadCount": 1,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "海淀",
+        "confirmedCount": 17,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "海淀市"
+      },
+      {
+        "cityName": "朝阳",
+        "confirmedCount": 17,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "朝阳市"
+      },
+      {
+        "cityName": "外地来京人员",
+        "confirmedCount": 11,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "外地来京人员市"
+      },
+      {
+        "cityName": "西城",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "西城市"
+      },
+      {
+        "cityName": "昌平",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "昌平市"
+      },
+      {
+        "cityName": "通州",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "通州市"
+      },
+      {
+        "cityName": "大兴",
+        "confirmedCount": 5,
+        "suspectedCount": 0,
+        "curedCount": 2,
+        "deadCount": 0,
+        "fullCityName": "大兴市"
+      },
+      {
+        "cityName": "丰台",
+        "confirmedCount": 4,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "丰台市"
+      },
+      {
+        "cityName": "石景山",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "石景山市"
+      },
+      {
+        "cityName": "东城",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "东城市"
+      },
+      {
+        "cityName": "顺义",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "顺义市"
+      }
+    ]
+  },
+  {
     "pinyin": "shandong",
     "name": "山东",
     "provinceName": "山东省",
@@ -999,107 +1100,6 @@
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "聊城市"
-      }
-    ]
-  },
-  {
-    "pinyin": "beijing",
-    "name": "北京",
-    "provinceName": "北京市",
-    "provinceShortName": "北京",
-    "confirmedCount": 72,
-    "suspectedCount": 0,
-    "curedCount": 2,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [
-      {
-        "cityName": "海淀",
-        "confirmedCount": 17,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "海淀市"
-      },
-      {
-        "cityName": "外地来京人员",
-        "confirmedCount": 11,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "外地来京人员市"
-      },
-      {
-        "cityName": "朝阳",
-        "confirmedCount": 11,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "朝阳市"
-      },
-      {
-        "cityName": "西城",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "西城市"
-      },
-      {
-        "cityName": "昌平",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "昌平市"
-      },
-      {
-        "cityName": "通州",
-        "confirmedCount": 6,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "通州市"
-      },
-      {
-        "cityName": "大兴",
-        "confirmedCount": 5,
-        "suspectedCount": 0,
-        "curedCount": 2,
-        "deadCount": 0,
-        "fullCityName": "大兴市"
-      },
-      {
-        "cityName": "丰台",
-        "confirmedCount": 4,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "丰台市"
-      },
-      {
-        "cityName": "石景山",
-        "confirmedCount": 2,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "石景山市"
-      },
-      {
-        "cityName": "顺义",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "顺义市"
-      },
-      {
-        "cityName": "东城",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "东城市"
       }
     ]
   },
@@ -1398,7 +1398,7 @@
     "name": "福建",
     "provinceName": "福建省",
     "provinceShortName": "福建",
-    "confirmedCount": 56,
+    "confirmedCount": 59,
     "suspectedCount": 0,
     "curedCount": 0,
     "deadCount": 0,
@@ -1406,7 +1406,7 @@
     "cities": [
       {
         "cityName": "福州",
-        "confirmedCount": 17,
+        "confirmedCount": 18,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -1422,7 +1422,7 @@
       },
       {
         "cityName": "莆田",
-        "confirmedCount": 9,
+        "confirmedCount": 10,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -1437,20 +1437,20 @@
         "fullCityName": "宁德市"
       },
       {
+        "cityName": "漳州",
+        "confirmedCount": 5,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "漳州市"
+      },
+      {
         "cityName": "厦门",
         "confirmedCount": 4,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "厦门市"
-      },
-      {
-        "cityName": "漳州",
-        "confirmedCount": 4,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "漳州市"
       },
       {
         "cityName": "三明",
@@ -2203,7 +2203,7 @@
     "name": "天津",
     "provinceName": "天津市",
     "provinceShortName": "天津",
-    "confirmedCount": 22,
+    "confirmedCount": 23,
     "suspectedCount": 0,
     "curedCount": 0,
     "deadCount": 0,

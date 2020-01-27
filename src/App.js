@@ -63,18 +63,18 @@ function App() {
         <div>
           <div className="row">
             <Tag>
-              确诊: {overall.confirmed} 例
+              确诊: {overall.confirmedCount} 例
             </Tag>
             <Tag>
-              疑似: {overall.suspect} 例
+              疑似: {overall.suspectedCount} 例
             </Tag>
           </div>
           <div className="row">
             <Tag>
-              死亡: {overall.death} 例
+              死亡: {overall.deadCount} 例
             </Tag>
             <Tag>
-              治愈: {overall.cured} 例
+              治愈: {overall.curedCount} 例
             </Tag>
           </div>
         </div>

@@ -5,13 +5,14 @@ const fs = require('fs')
 const loadOverall = async data => {
   const overall = data
     .match(/window.getStatisticsService = (.*?)}catch/)[1]
-  const result = JSON.parse(overall)
-  const numbers = result.countRemark.match(/\d+/g)
-  result.confirmed = numbers[0]
-  result.suspect = numbers[1]
-  result.death = numbers[2]
-  result.cured = numbers[3]
-  fs.writeFileSync('./src/data/overall.json', JSON.stringify(result, null, 2))
+  // const result = JSON.parse(overall)
+  // const numbers = result.countRemark.match(/\d+/g)
+  // console.log(result)
+  // result.confirmed = numbers[0]
+  // result.suspect = numbers[1]
+  // result.death = numbers[2]
+  // result.cured = numbers[3]
+  fs.writeFileSync('./src/data/overall.json', overall)
 }
 
 const loadCityList = async data => {
@@ -44,6 +45,11 @@ const loadCityList = async data => {
 }
 
 axios.request('https://3g.dxy.cn/newh5/view/pneumonia').then(({ data: html }) => {
-  loadCityList(html);
-  loadOverall(html);
+  return Promise.all([
+    loadCityList(html),
+    loadOverall(html)
+  ])
+}).catch(e => {
+  console.log(e)
+  process.exit(1)
 })
