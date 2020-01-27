@@ -29,9 +29,13 @@ const loadCityList = async data => {
       name: p.provinceShortName,
       ...p,
       cities: p.cities.map(city => {
+        let fullCityName = city.cityName + '市'
+        if (city.cityName.length > 2 && /(市|州|区|旗)/.test(city.cityName)) {
+          fullCityName = city.cityName
+        }
         return {
           ...city,
-          fullCityName: city.cityName + '市'
+          fullCityName
         }
       })
     }
