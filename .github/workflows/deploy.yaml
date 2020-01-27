@@ -37,12 +37,12 @@ jobs:
         endpoint: oss-cn-beijing.aliyuncs.com
         access-key-id: ${{ secrets.OSS_KEY_ID }}
         access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
-    - name: 删除冗余文件
-      run: ossutil rm oss://shanyue-ncov/static -rf
-      if: github.event_name == 'schedule'
+    # - name: 删除冗余文件
+    #   run: ossutil rm oss://shanyue-ncov/static -rf
+    #   if: github.event_name == 'schedule'
     - name: cp files to aliyun
       run: ossutil cp -rf build oss://shanyue-ncov/
-    - name: set no-cache in index.html
+    - name: set no-cache in sw.js
       run: ossutil set-meta oss://shanyue-ncov/service-worker.js cache-control:"no-cache" --update -rf
     - name: set long term cache
       run: ossutil set-meta oss://shanyue-ncov/static cache-control:"max-age=31536000" --update -rf
