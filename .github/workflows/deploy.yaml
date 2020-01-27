@@ -25,8 +25,10 @@ jobs:
     # npm install
     - name: npm install
       run: npm install
-    - name: build
-      run: node build-origin.js && npm run build
+    - name: build data
+      run: node build-origin.js
+    - name: build site
+      run: npm run build
     # 设置阿里云OSS的 id/secret，存储到 github 的 secrets 中
     - name: setup aliyun oss
       uses: manyuanrong/setup-ossutil@master
@@ -39,5 +41,7 @@ jobs:
       if: github.event_name == 'schedule'
     - name: cp files to aliyun
       run: ossutil cp -rf build oss://shanyue-ncov/
+    - name: set no-cache in index.html
+      run: ossutil set-meta oss://shanyue-ncov/index.html cache-control:"no-cache" --update -rf
     - name: set long term cache
       run: ossutil set-meta oss://shanyue-ncov/static cache-control:"max-age=31536000" --update -rf

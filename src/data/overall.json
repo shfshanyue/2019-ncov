@@ -1,14 +1,14 @@
 {
   "id": 1,
   "createTime": 1579537899000,
-  "modifyTime": 1580104699000,
+  "modifyTime": 1580112356000,
   "infectSource": "野生动物，可能为中华菊头蝠",
   "passWay": "未完全掌握，存在人传人、医务人员感染、一定范围社区传播",
   "imgUrl": "https://img1.dxycdn.com/2020/0123/733/3392575782185696736-73.jpg",
   "dailyPic": "https://img1.dxycdn.com/2020/0127/350/3393218957833514634-73.jpg",
   "summary": "",
   "deleted": false,
-  "countRemark": "确诊 2817 例，疑似 5794 例\n死亡 81 例，治愈 52 例",
+  "countRemark": "确诊 2823 例，疑似 5794 例\n死亡 81 例，治愈 55 例",
   "virus": "新型冠状病毒 2019-nCoV",
   "remark1": "易感人群: 暂时不明，病毒存在变异可能",
   "remark2": "潜伏期: 1~14 天均有，平均 10 天，潜伏期内存在传染性",
@@ -17,8 +17,8 @@
   "remark5": "",
   "generalRemark": "疑似病例数来自国家卫健委数据，目前为全国数据，未分省市自治区等",
   "abroadRemark": "",
-  "confirmed": "2817",
+  "confirmed": "2823",
   "suspect": "5794",
   "death": "81",
-  "cured": "52"
+  "cured": "55"
 }

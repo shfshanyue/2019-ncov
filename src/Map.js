@@ -23,7 +23,7 @@ function Map () {
         min: 0,
         max: 2000,
         align: 'right',
-        top: 'middle',
+        top: '40%',
         right: 0,
         inRange: {
           color: [
@@ -47,7 +47,7 @@ function Map () {
         // "borderWidth": 0
       },
       series: [{
-        left: 10,
+        left: 'center',
         type: 'map',
         name: '确诊人数',
         label: {
@@ -58,7 +58,7 @@ function Map () {
         },
         mapType: 'china',
         data,
-        // zoom: 1,
+        zoom: 1.2,
         roam: false,
         showLegendSymbol: false,
         emphasis: {},

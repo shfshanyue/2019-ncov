@@ -4,7 +4,7 @@
     "provinceShortName": "湖北",
     "confirmedCount": 1423,
     "suspectedCount": 0,
-    "curedCount": 44,
+    "curedCount": 45,
     "deadCount": 76,
     "comment": "",
     "cities": [
@@ -54,7 +54,7 @@
         "cityName": "荆州",
         "confirmedCount": 47,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 1,
         "deadCount": 2
       },
       {
@@ -931,6 +931,102 @@
     ]
   },
   {
+    "provinceName": "北京市",
+    "provinceShortName": "北京",
+    "confirmedCount": 72,
+    "suspectedCount": 0,
+    "curedCount": 2,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "海淀",
+        "confirmedCount": 17,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "外地来京人员",
+        "confirmedCount": 11,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "朝阳",
+        "confirmedCount": 11,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "西城",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "昌平",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "通州",
+        "confirmedCount": 6,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "大兴",
+        "confirmedCount": 5,
+        "suspectedCount": 0,
+        "curedCount": 2,
+        "deadCount": 0
+      },
+      {
+        "cityName": "丰台",
+        "confirmedCount": 4,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "石景山",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "顺义",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "东城",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      }
+    ],
+    "provincePinyin": [
+      [
+        "běi"
+      ],
+      [
+        "jīng"
+      ]
+    ]
+  },
+  {
     "provinceName": "安徽省",
     "provinceShortName": "安徽",
     "confirmedCount": 70,
@@ -1200,102 +1296,6 @@
     ]
   },
   {
-    "provinceName": "北京市",
-    "provinceShortName": "北京",
-    "confirmedCount": 68,
-    "suspectedCount": 0,
-    "curedCount": 2,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [
-      {
-        "cityName": "海淀",
-        "confirmedCount": 16,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "外地来京人员",
-        "confirmedCount": 12,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "朝阳",
-        "confirmedCount": 11,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "昌平",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "通州",
-        "confirmedCount": 6,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "西城",
-        "confirmedCount": 5,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "丰台",
-        "confirmedCount": 4,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "大兴",
-        "confirmedCount": 3,
-        "suspectedCount": 0,
-        "curedCount": 2,
-        "deadCount": 0
-      },
-      {
-        "cityName": "石景山",
-        "confirmedCount": 2,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "顺义",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "东城",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      }
-    ],
-    "provincePinyin": [
-      [
-        "běi"
-      ],
-      [
-        "jīng"
-      ]
-    ]
-  },
-  {
     "provinceName": "福建省",
     "provinceShortName": "福建",
     "confirmedCount": 56,
@@ -1375,7 +1375,7 @@
     "provinceShortName": "上海",
     "confirmedCount": 53,
     "suspectedCount": 0,
-    "curedCount": 1,
+    "curedCount": 3,
     "deadCount": 1,
     "comment": "",
     "cities": [
@@ -1383,7 +1383,7 @@
         "cityName": "外地来沪人员",
         "confirmedCount": 23,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 3,
         "deadCount": 0
       },
       {
@@ -2147,6 +2147,88 @@
     ]
   },
   {
+    "provinceName": "天津市",
+    "provinceShortName": "天津",
+    "confirmedCount": 18,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "河北区",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "河东区",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "外地来津",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "滨海新区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "和平区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "南开区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "西青区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "红桥区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "河西区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      }
+    ],
+    "provincePinyin": [
+      [
+        "tiān"
+      ],
+      [
+        "jīn"
+      ]
+    ]
+  },
+  {
     "provinceName": "河北省",
     "provinceShortName": "河北",
     "confirmedCount": 18,
@@ -2211,81 +2293,6 @@
       ],
       [
         "běi"
-      ]
-    ]
-  },
-  {
-    "provinceName": "天津市",
-    "provinceShortName": "天津",
-    "confirmedCount": 17,
-    "suspectedCount": 0,
-    "curedCount": 0,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [
-      {
-        "cityName": "河北区",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "河东区",
-        "confirmedCount": 3,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "外地来津",
-        "confirmedCount": 2,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "滨海新区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "和平区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "南开区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "西青区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      },
-      {
-        "cityName": "红桥区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0
-      }
-    ],
-    "provincePinyin": [
-      [
-        "tiān"
-      ],
-      [
-        "jīn"
       ]
     ]
   },
@@ -2702,6 +2709,24 @@
     ]
   },
   {
+    "provinceName": "台湾",
+    "provinceShortName": "台湾",
+    "confirmedCount": 5,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [],
+    "provincePinyin": [
+      [
+        "tái"
+      ],
+      [
+        "wān"
+      ]
+    ]
+  },
+  {
     "provinceName": "新疆维吾尔自治区",
     "provinceShortName": "新疆",
     "confirmedCount": 5,
@@ -2731,24 +2756,6 @@
       ],
       [
         "jiāng"
-      ]
-    ]
-  },
-  {
-    "provinceName": "台湾",
-    "provinceShortName": "台湾",
-    "confirmedCount": 4,
-    "suspectedCount": 0,
-    "curedCount": 0,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [],
-    "provincePinyin": [
-      [
-        "tái"
-      ],
-      [
-        "wān"
       ]
     ]
   },
