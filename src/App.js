@@ -18,7 +18,7 @@ function App() {
         <h2>
           统计
           <span className="due">
-            截止时间: { dayjs(overall.updatetime).format('YYYY-MM-DD HH:mm') }
+            截止时间: { dayjs(overall.modifyTime).format('YYYY-MM-DD HH:mm') }
           </span>
         </h2>
         <div>
