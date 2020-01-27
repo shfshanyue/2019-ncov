@@ -9,3 +9,24 @@
   font-weight: 400;
   padding-left: 1rem;
 }
+
+.province {
+  display: flex;
+  text-align: center;
+}
+
+.area {
+  flex: 3;
+  padding: .4rem 0;
+  border: 1px solid #fff;
+  background-color: #f8f8f8;
+}
+
+.confirmed,
+.death,
+.cured {
+  padding: .3rem 0;
+  flex: 2;
+  border: 1px solid #fff;
+  background-color: #f8f8f8;
+}

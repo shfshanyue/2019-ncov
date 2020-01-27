@@ -1,10 +1,22 @@
 import React from 'react';
 import './App.css';
 import overall from './data/overall'
+import provinces from './data/area'
 
 import Map from './Map'
 import Tag from './Tag'
 import dayjs from 'dayjs'
+
+function Provinces ({ provinces }) {
+  return provinces.map(x => (
+    <div className="province">
+      <div className="area">{ x.provinceShortName }</div>
+      <div className="confirmed">{ x.confirmedCount }</div>
+      <div className="death">{ x.deadCount }</div>
+      <div className="cured">{ x.curedCount }</div>
+    </div>
+  ))
+}
 
 function App() {
   return (
@@ -43,6 +55,7 @@ function App() {
       <div class="card">
         <h2>疫情地图</h2>
         <Map />
+        <Provinces provinces={provinces}></Provinces>
       </div>
     </div>
   );
