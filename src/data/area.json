@@ -147,7 +147,7 @@
     "provinceShortName": "广东",
     "confirmedCount": 151,
     "suspectedCount": 0,
-    "curedCount": 2,
+    "curedCount": 3,
     "deadCount": 0,
     "comment": "",
     "cities": [
@@ -163,7 +163,7 @@
         "cityName": "深圳",
         "confirmedCount": 36,
         "suspectedCount": 0,
-        "curedCount": 2,
+        "curedCount": 3,
         "deadCount": 0,
         "fullCityName": "深圳市"
       },
@@ -1875,7 +1875,7 @@
     ]
   },
   {
-    "pinyin": "shanxi",
+    "pinyin": "shanxi1",
     "name": "陕西",
     "provinceName": "陕西省",
     "provinceShortName": "陕西",
@@ -2199,6 +2199,91 @@
     ]
   },
   {
+    "pinyin": "tianjin",
+    "name": "天津",
+    "provinceName": "天津市",
+    "provinceShortName": "天津",
+    "confirmedCount": 22,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "河北区",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "河北区市"
+      },
+      {
+        "cityName": "河东区",
+        "confirmedCount": 5,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "河东区市"
+      },
+      {
+        "cityName": "河西区",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "河西区市"
+      },
+      {
+        "cityName": "外地来津",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "外地来津市"
+      },
+      {
+        "cityName": "滨海新区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "滨海新区市"
+      },
+      {
+        "cityName": "和平区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "和平区市"
+      },
+      {
+        "cityName": "南开区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "南开区市"
+      },
+      {
+        "cityName": "西青区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "西青区市"
+      },
+      {
+        "cityName": "红桥区",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "红桥区市"
+      }
+    ]
+  },
+  {
     "pinyin": "heilongjiang",
     "name": "黑龙江",
     "provinceName": "黑龙江省",
@@ -2272,91 +2357,6 @@
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "七台河市"
-      }
-    ]
-  },
-  {
-    "pinyin": "tianjin",
-    "name": "天津",
-    "provinceName": "天津市",
-    "provinceShortName": "天津",
-    "confirmedCount": 18,
-    "suspectedCount": 0,
-    "curedCount": 0,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [
-      {
-        "cityName": "河北区",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "河北区市"
-      },
-      {
-        "cityName": "河东区",
-        "confirmedCount": 3,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "河东区市"
-      },
-      {
-        "cityName": "外地来津",
-        "confirmedCount": 2,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "外地来津市"
-      },
-      {
-        "cityName": "滨海新区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "滨海新区市"
-      },
-      {
-        "cityName": "和平区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "和平区市"
-      },
-      {
-        "cityName": "南开区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "南开区市"
-      },
-      {
-        "cityName": "西青区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "西青区市"
-      },
-      {
-        "cityName": "红桥区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "红桥区市"
-      },
-      {
-        "cityName": "河西区",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "河西区市"
       }
     ]
   },

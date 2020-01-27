@@ -19,6 +19,9 @@ const loadCityList = async data => {
     .match(/window.getAreaStat = (.*?)}catch/)[1]
   const provinces = JSON.parse(cityList)
   const result = JSON.stringify(provinces.map(p => {
+    if (p.provinceShortName === '陕西') {
+      p.pinyin = 'shanxi1'
+    }
     return {
       pinyin: pinyin(p.provinceShortName, {
         style: pinyin.STYLE_NORMAL
