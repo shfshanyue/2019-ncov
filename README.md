@@ -1,8 +1,10 @@
-# 肺炎实时疫情地图 | 地级市
+# 肺炎疫情地图 | 地级市
 
 > 众志成城，共抗疫情
 
-[丁香园肺炎疫情实时动态](https://3g.dxy.cn/newh5/view/pneumonia?from=timeline) 中不含有
+由于 [丁香园肺炎疫情实时动态](https://3g.dxy.cn/newh5/view/pneumonia?from=timeline) 中不含有各省份疫情地图，于是做了相关扩展
+
+<img src="./screen.png" width="400">
 
 ## 快速开始
 
