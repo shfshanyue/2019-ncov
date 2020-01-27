@@ -28,7 +28,7 @@ const loadCityList = async data => {
       cities: p.cities.map(city => {
         return {
           ...city,
-          cityName: city.cityName + '市'
+          fullCityName: city.cityName + '市'
         }
       })
     }

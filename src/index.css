@@ -18,11 +18,12 @@ header {
   padding: 1rem;
   background-position: center;
   background-size: 100%;
+  color: #fff;
 }
 
 h1 {
-  text-align: center;
-  color: #fff;
+  text-align: left;
+  margin: .5rem 0;
 }
 
 h2 {

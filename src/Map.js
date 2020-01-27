@@ -17,7 +17,7 @@ function Map ({ province, data }) {
         min: 0,
         max: 2000,
         align: 'right',
-        top: '40%',
+        top: province ? 0 : '40%',
         right: 0,
         inRange: {
           color: [
@@ -34,7 +34,7 @@ function Map ({ province, data }) {
         ],
         // "inverse": false,
         // "splitNumber": 5,
-        // "orient": "vertical",
+        orient: province ? 'horizontal' : 'vertical',
         showLabel: true,
         itemWidth: 10,
         itemHeight: 10,
@@ -50,9 +50,9 @@ function Map ({ province, data }) {
         silent: true,
         label: {
           show: true,
-          position: 'top',
-          margin: 8,
-          fontSize: 5,
+          position: 'inside',
+          // margin: 8,
+          fontSize: province ? 10 : 6,
         },
         mapType: province ? province.name : 'china',
         data,

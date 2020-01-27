@@ -19,7 +19,7 @@ function App() {
     name: p.provinceShortName,
     value: p.confirmedCount
   })) : provincesByName[province.pinyin].cities.map(city => ({
-    name: city.cityName,
+    name: city.fullCityName,
     value: city.confirmedCount
   }))
 
@@ -33,7 +33,9 @@ function App() {
           setProvince(x)
         }
       }}>
-        <div className="area">{ x.name || x.cityName }</div>
+        <div className="area">
+          { x.name || x.cityName }
+        </div>
         <div className="confirmed">{ x.confirmedCount }</div>
         <div className="death">{ x.deadCount }</div>
         <div className="cured">{ x.curedCount }</div>
@@ -45,9 +47,11 @@ function App() {
     <div>
       <header>
         <h1>
-          肺炎疫情实时动态
-          <small>新行冠状病毒</small>
+          <small>新型冠状病毒</small>
+          <br />
+          疫情实时动态 · 地级市
         </h1>
+        <i>By 山月 (数据来源于丁香园)</i>
       </header>
       <div className="card">
         <h2>
