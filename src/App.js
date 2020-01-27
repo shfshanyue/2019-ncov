@@ -33,7 +33,7 @@ function App() {
           setProvince(x)
         }
       }}>
-        <div className="area">
+        <div className={`area ${x.name ? 'active' : ''}`}>
           { x.name || x.cityName }
         </div>
         <div className="confirmed">{ x.confirmedCount }</div>
@@ -80,7 +80,18 @@ function App() {
         </div>
       </div>
       <div className="card">
-        <h2>疫情地图</h2>
+        <h2>疫情地图 { province ? `· ${province.name}` : false }
+        {
+          province ? <small
+            style={{
+              color: '#f60',
+              position: 'absolute',
+              right: 0
+            }}
+            onClick={() => setProvince(null)}
+          >返回全国</small> : null
+        }
+        </h2>
         <Map province={province} data={data} />
         <div className="province header">
           <div className="area">地区</div>

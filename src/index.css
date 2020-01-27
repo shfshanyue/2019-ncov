@@ -31,6 +31,7 @@ h2 {
   padding: 3px 10px;
   border-left: .2rem solid #f60;
   border-bottom: 1px solid #efefef;
+  position: relative;
 }
 
 .row {

@@ -34,6 +34,23 @@
 .area {
   flex: 3;
   padding: .4rem 0;
+  position: relative;
+}
+
+.area.active::before {
+  content: '.';
+  display: block;
+  position: absolute;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  border-width: 6px 0 6px 6px;
+  border-style: solid;
+  border-color: transparent transparent transparent #f60;
+  left: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .confirmed,
