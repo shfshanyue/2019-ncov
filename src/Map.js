@@ -2,7 +2,6 @@ import React from 'react'
 import ReactEcharts from 'echarts-for-react'
 
 import 'echarts/map/js/china.js'
-import 'echarts/map/js/province/shanxi'
 
 function Map ({ province, data }) {
   if (province) {
