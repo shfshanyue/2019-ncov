@@ -1110,7 +1110,7 @@
     "provinceShortName": "江西",
     "confirmedCount": 72,
     "suspectedCount": 0,
-    "curedCount": 1,
+    "curedCount": 2,
     "deadCount": 0,
     "comment": "",
     "cities": [
@@ -1118,7 +1118,7 @@
         "cityName": "南昌",
         "confirmedCount": 17,
         "suspectedCount": 0,
-        "curedCount": 1,
+        "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "南昌市"
       },

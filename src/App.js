@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { keyBy } from 'lodash'
+import keyBy from 'lodash.keyby'
 import dayjs from 'dayjs'
 
 import overall from './data/overall'
@@ -8,7 +8,7 @@ import provinces from './data/area'
 import Map from './Map'
 import Tag from './Tag'
 
-import './App.css';
+import './App.css'
 
 const provincesByName = keyBy(provinces, 'pinyin')
 
