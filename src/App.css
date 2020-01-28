@@ -65,3 +65,11 @@
   color: #999;
   text-align: center;
 }
+
+li > a {
+  color: #f60;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.6em;
+  font-size: 1.1rem;
+}

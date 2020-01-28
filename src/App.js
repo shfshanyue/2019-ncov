@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import keyBy from 'lodash.keyby'
 import dayjs from 'dayjs'
 
-import overall from './data/overall'
+import all from './data/overall'
 import provinces from './data/area'
 
 import Map from './Map'
@@ -24,6 +24,7 @@ function App() {
   }))
 
   const area = province ? provincesByName[province.pinyin].cities : provinces
+  const overall = province ? province : all
 
   const renderArea = () => {
     return area.map(x => (
@@ -55,9 +56,9 @@ function App() {
       </header>
       <div className="card">
         <h2>
-          统计
+          统计 { province ? `· ${province.name}` : false }
           <span className="due">
-            截止时间: {dayjs(overall.modifyTime).format('YYYY-MM-DD HH:mm')}
+            截止时间: {dayjs(all.modifyTime).format('YYYY-MM-DD HH:mm')}
           </span>
         </h2>
         <div>
@@ -65,7 +66,7 @@ function App() {
             <Tag number={overall.confirmedCount}>
               确诊
             </Tag>
-            <Tag number={overall.suspectedCount}>
+            <Tag number={overall.suspectedCount || '-'}>
               疑似
             </Tag>
           {/* </div>
@@ -86,7 +87,9 @@ function App() {
             style={{
               color: '#f60',
               position: 'absolute',
-              right: 0
+              right: 0,
+              top: '50%',
+              transform: 'translateY(-50%)',
             }}
             onClick={() => setProvince(null)}
           >返回全国</small> : null
@@ -100,6 +103,14 @@ function App() {
           <div className="cured">治愈</div>
         </div>
         { renderArea() }
+      </div>
+      <div className="card">
+        <h2>信息汇总</h2>
+        <li><a href="http://2019ncov.nosugartech.com/">新型肺炎确诊患者相同行程查询工具</a></li>
+        <li><a href="https://3g.dxy.cn/newh5/view/pneumonia">新冠疫情实时动态 - 丁香园</a></li>
+        <li><a href="https://news.qq.com/zt2020/page/feiyan.htm">新冠疫情实时动态 - 腾讯新闻</a></li>
+        <li><a href="https://vp.fact.qq.com/home">新型冠状病毒实时辟谣</a></li>
+        <li><a href="https://promo.guahao.com/topic/pneumonia">微医互联网总院抗击疫情实时救助</a></li>
       </div>
       <div className="fallback">
         建议反馈交流: wechat (shanyue94)
