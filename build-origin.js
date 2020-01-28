@@ -55,12 +55,23 @@ const loadCityList = async data => {
   fs.writeFileSync('./src/data/area.json', result)
 }
 
-axios.request('https://3g.dxy.cn/newh5/view/pneumonia').then(({ data: html }) => {
-  return Promise.all([
-    loadCityList(html),
-    loadOverall(html)
-  ])
-}).catch(e => {
+let times = 0
+async function request () {
+  return axios.request('https://3g.dxy.cn/newh5/view/pneumonia').then(({ data: html }) => {
+    return Promise.all([
+      loadCityList(html),
+      loadOverall(html)
+    ])
+  }).catch(e => {
+    console.log('Retry')
+    if (times++ > 2) {
+      throw new Error(e)
+    }
+    return request()
+  })
+}
+
+request().catch(e => {
   console.log(e)
   process.exit(1)
 })
