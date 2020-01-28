@@ -4,9 +4,9 @@
 
 在 [丁香园肺炎疫情实时动态](https://3g.dxy.cn/newh5/view/pneumonia?from=timeline) 中提供了疫情地图及实时权威新闻，但其中并没有省市地图。我在每天闭门不出为国家做贡献的同时，对疫情地图做了简单的扩展，旨在帮助大家更加直观了解自己家乡的情况。
 
-以下是山西疫情的截图，目前还偏粗糙。
+以下是湖北疫情的截图
 
-<img src="./screen.png" width="400">
+<img src="./public/screen.png" width="400">
 
 ## 快速开始
 
