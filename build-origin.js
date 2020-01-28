@@ -26,6 +26,8 @@ const loadCityList = async data => {
   const result = JSON.stringify(provinces.map(p => {
     if (p.provinceShortName === '陕西') {
       p.pinyin = 'shanxi1'
+    } else if (p.provinceShortName === '重庆') {
+      p.pinyin = 'chongqing'
     }
     return {
       pinyin: pinyin(p.provinceShortName, {

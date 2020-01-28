@@ -8,7 +8,7 @@
     "suspectedCount": 0,
     "curedCount": 47,
     "deadCount": 100,
-    "comment": "",
+    "comment": "未明确地区：治愈 2",
     "cities": [
       {
         "cityName": "武汉",
@@ -649,7 +649,7 @@
     ]
   },
   {
-    "pinyin": "zhongqing",
+    "pinyin": "chongqing",
     "name": "重庆",
     "provinceName": "重庆市",
     "provinceShortName": "重庆",
@@ -1341,7 +1341,7 @@
     "suspectedCount": 0,
     "curedCount": 2,
     "deadCount": 1,
-    "comment": "",
+    "comment": "未明确地区：死亡 1",
     "cities": [
       {
         "cityName": "海淀",
@@ -1660,7 +1660,7 @@
     "suspectedCount": 0,
     "curedCount": 3,
     "deadCount": 1,
-    "comment": "",
+    "comment": "未明确地区：死亡 1",
     "cities": [
       {
         "cityName": "外地来沪人员",
@@ -1970,7 +1970,7 @@
         "confirmedCount": 2,
         "suspectedCount": 0,
         "curedCount": 0,
-        "deadCount": 0,
+        "deadCount": 1,
         "fullCityName": "澄迈县市"
       },
       {
@@ -2437,7 +2437,7 @@
     "name": "天津",
     "provinceName": "天津市",
     "provinceShortName": "天津",
-    "confirmedCount": 23,
+    "confirmedCount": 24,
     "suspectedCount": 0,
     "curedCount": 0,
     "deadCount": 0,

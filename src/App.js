@@ -62,19 +62,19 @@ function App() {
         </h2>
         <div>
           <div className="row">
-            <Tag>
-              确诊: {overall.confirmedCount} 例
+            <Tag number={overall.confirmedCount}>
+              确诊
             </Tag>
-            <Tag>
-              疑似: {overall.suspectedCount} 例
+            <Tag number={overall.suspectedCount}>
+              疑似
             </Tag>
-          </div>
-          <div className="row">
-            <Tag>
-              死亡: {overall.deadCount} 例
+          {/* </div>
+          <div className="row"> */}
+            <Tag number={overall.deadCount}>
+              死亡
             </Tag>
-            <Tag>
-              治愈: {overall.curedCount} 例
+            <Tag number={overall.curedCount}>
+              治愈
             </Tag>
           </div>
         </div>
@@ -100,6 +100,9 @@ function App() {
           <div className="cured">治愈</div>
         </div>
         { renderArea() }
+      </div>
+      <div className="fallback">
+        建议反馈交流: wechat (shanyue94)
       </div>
     </div>
   );

@@ -21,7 +21,8 @@ function Map ({ province, data }) {
         left: province ? 0 : 'auto',
         inRange: {
           color: [
-            '#ea9898',
+            '#ffc0b1',
+            '#ff8c71',
             '#ef1717',
             '#9c0505'
           ]
@@ -53,7 +54,7 @@ function Map ({ province, data }) {
           show: true,
           position: 'inside',
           // margin: 8,
-          fontSize: province ? 8 : 6,
+          fontSize: 6
         },
         mapType: province ? province.name : 'china',
         data,

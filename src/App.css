@@ -59,3 +59,9 @@
   padding: .3rem 0;
   flex: 2;
 }
+
+.fallback {
+  padding: 0 1rem 1rem;
+  color: #999;
+  text-align: center;
+}

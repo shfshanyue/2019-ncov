@@ -1,8 +1,16 @@
 .tag {
   border-radius: 4px;
   padding: 5px 10px;
-  background-color: #f60;
-  color: #fff;
+  background-color: #f3f3f3;
   display: inline-block;
-  width: 40%;
+  text-align: center;
+  color: #888;
+  flex: 1;
+  margin: 5px;
+}
+
+.number {
+  color: #f60;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
