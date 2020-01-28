@@ -1349,7 +1349,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "海淀市"
+        "fullCityName": "海淀区"
       },
       {
         "cityName": "朝阳",
@@ -1357,7 +1357,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "朝阳市"
+        "fullCityName": "朝阳区"
       },
       {
         "cityName": "外地来京人员",
@@ -1365,7 +1365,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "外地来京人员市"
+        "fullCityName": "外地来京人员区"
       },
       {
         "cityName": "西城",
@@ -1373,7 +1373,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "西城市"
+        "fullCityName": "西城区"
       },
       {
         "cityName": "昌平",
@@ -1381,7 +1381,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "昌平市"
+        "fullCityName": "昌平区"
       },
       {
         "cityName": "通州",
@@ -1389,7 +1389,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "通州市"
+        "fullCityName": "通州区"
       },
       {
         "cityName": "大兴",
@@ -1397,7 +1397,7 @@
         "suspectedCount": 0,
         "curedCount": 2,
         "deadCount": 0,
-        "fullCityName": "大兴市"
+        "fullCityName": "大兴区"
       },
       {
         "cityName": "丰台",
@@ -1405,7 +1405,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "丰台市"
+        "fullCityName": "丰台区"
       },
       {
         "cityName": "石景山",
@@ -1413,7 +1413,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "石景山市"
+        "fullCityName": "石景山区"
       },
       {
         "cityName": "东城",
@@ -1421,7 +1421,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "东城市"
+        "fullCityName": "东城区"
       },
       {
         "cityName": "顺义",
@@ -1429,7 +1429,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "顺义市"
+        "fullCityName": "顺义区"
       }
     ]
   },
@@ -2656,6 +2656,51 @@
     ]
   },
   {
+    "pinyin": "ningxia",
+    "name": "宁夏",
+    "provinceName": "宁夏回族自治区",
+    "provinceShortName": "宁夏",
+    "confirmedCount": 11,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "银川",
+        "confirmedCount": 7,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "银川市"
+      },
+      {
+        "cityName": "吴忠",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "吴忠市"
+      },
+      {
+        "cityName": "中卫",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "中卫市"
+      },
+      {
+        "cityName": "固原",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "固原市"
+      }
+    ]
+  },
+  {
     "pinyin": "neimenggu",
     "name": "内蒙古",
     "provinceName": "内蒙古自治区",
@@ -2749,6 +2794,59 @@
     ]
   },
   {
+    "pinyin": "xinjiang",
+    "name": "新疆",
+    "provinceName": "新疆维吾尔自治区",
+    "provinceShortName": "新疆",
+    "confirmedCount": 10,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "乌鲁木齐",
+        "confirmedCount": 5,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "乌鲁木齐市"
+      },
+      {
+        "cityName": "伊犁州",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "伊犁州"
+      },
+      {
+        "cityName": "吐鲁番市",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "吐鲁番市"
+      },
+      {
+        "cityName": "第七师",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "第七师市"
+      },
+      {
+        "cityName": "第八师石河子市",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "第八师石河子市"
+      }
+    ]
+  },
+  {
     "pinyin": "guizhou",
     "name": "贵州",
     "provinceName": "贵州省",
@@ -2812,43 +2910,6 @@
     "deadCount": 0,
     "comment": "",
     "cities": []
-  },
-  {
-    "pinyin": "ningxia",
-    "name": "宁夏",
-    "provinceName": "宁夏回族自治区",
-    "provinceShortName": "宁夏",
-    "confirmedCount": 7,
-    "suspectedCount": 0,
-    "curedCount": 0,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [
-      {
-        "cityName": "银川",
-        "confirmedCount": 5,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "银川市"
-      },
-      {
-        "cityName": "中卫",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "中卫市"
-      },
-      {
-        "cityName": "固原",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "固原市"
-      }
-    ]
   },
   {
     "pinyin": "jilin",
@@ -2939,34 +3000,5 @@
     "deadCount": 0,
     "comment": "",
     "cities": []
-  },
-  {
-    "pinyin": "xinjiang",
-    "name": "新疆",
-    "provinceName": "新疆维吾尔自治区",
-    "provinceShortName": "新疆",
-    "confirmedCount": 5,
-    "suspectedCount": 0,
-    "curedCount": 0,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [
-      {
-        "cityName": "乌鲁木齐",
-        "confirmedCount": 4,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "乌鲁木齐市"
-      },
-      {
-        "cityName": "伊犁州",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "伊犁州"
-      }
-    ]
   }
 ]
