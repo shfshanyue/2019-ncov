@@ -17,6 +17,10 @@ const loadOverall = async data => {
 
 const cityMap = {
   '恩施州': '恩施土家族苗族自治州',
+  '西双版纳': '西双版纳傣族自治州',
+  '大理': '大理白族自治州',
+  '红河': '红河哈尼族彝族自治州',
+  '德宏': '德宏傣族景颇族自治州',
 }
 
 const loadCityList = async data => {
