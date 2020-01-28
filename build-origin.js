@@ -15,6 +15,10 @@ const loadOverall = async data => {
   fs.writeFileSync('./src/data/overall.json', overall)
 }
 
+const cityMap = {
+  '恩施州': '恩施土家族苗族自治州',
+}
+
 const loadCityList = async data => {
   const cityList = data
     .match(/window.getAreaStat = (.*?)}catch/)[1]
@@ -34,6 +38,7 @@ const loadCityList = async data => {
         if (city.cityName.length > 2 && /(市|州|区|旗)/.test(city.cityName)) {
           fullCityName = city.cityName
         }
+        fullCityName = cityMap[city.cityName] || fullCityName
         return {
           ...city,
           fullCityName
