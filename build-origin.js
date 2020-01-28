@@ -70,7 +70,7 @@ async function request () {
     ])
   }).catch(e => {
     console.log('Retry')
-    if (times++ > 2) {
+    if (times++ > 10) {
       throw new Error(e)
     }
     return request()
