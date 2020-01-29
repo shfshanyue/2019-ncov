@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@loadable/component": "^5.12.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -15,9 +16,11 @@
     "pinyin": "^2.9.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "source-map-explorer": "^2.2.2"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
