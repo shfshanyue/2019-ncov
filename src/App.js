@@ -1,14 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, Suspense } from 'react'
 import keyBy from 'lodash.keyby'
 import dayjs from 'dayjs'
 
 import all from './data/overall'
 import provinces from './data/area'
 
-import Map from './Map'
 import Tag from './Tag'
 
 import './App.css'
+
+const Map = React.lazy(() => import('./Map'))
 
 const provincesByName = keyBy(provinces, 'pinyin')
 
@@ -95,7 +96,9 @@ function App() {
           >返回全国</small> : null
         }
         </h2>
-        <Map province={province} data={data} />
+        <Suspense fallback={<div className="loading">地图正在加载中...</div>}>
+          <Map province={province} data={data} />
+        </Suspense>
         <div className="province header">
           <div className="area">地区</div>
           <div className="confirmed">确诊</div>
