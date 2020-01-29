@@ -50,7 +50,7 @@ function App() {
         <h1>
           <small>新型冠状病毒</small>
           <br />
-          疫情实时动态 · 地级市
+          疫情实时动态 · 省市地图
         </h1>
         <i>By 山月 (数据来源于丁香园)</i>
       </header>
@@ -104,16 +104,21 @@ function App() {
         </div>
         { renderArea() }
       </div>
-      <div className="card">
+      <div className="card info">
         <h2>信息汇总</h2>
-        <li><a href="http://2019ncov.nosugartech.com/">新型肺炎确诊患者相同行程查询工具</a></li>
-        <li><a href="https://3g.dxy.cn/newh5/view/pneumonia">新冠疫情实时动态 - 丁香园</a></li>
-        <li><a href="https://news.qq.com/zt2020/page/feiyan.htm">新冠疫情实时动态 - 腾讯新闻</a></li>
+        <li>
+          <a href="https://m.yangshipin.cn/static/2020/c0126.html">疫情24小时 | 与疫情赛跑</a>
+        </li>
+        <li><a href="http://2019ncov.nosugartech.com/">确诊患者同行查询工具</a></li>
+        <li><a href="https://news.qq.com/zt2020/page/feiyan.htm">腾讯新闻新冠疫情实时动态</a></li>
+        <li><a href="https://3g.dxy.cn/newh5/view/pneumonia">丁香园新冠疫情实时动态</a></li>
         <li><a href="https://vp.fact.qq.com/home">新型冠状病毒实时辟谣</a></li>
-        <li><a href="https://promo.guahao.com/topic/pneumonia">微医互联网总院抗击疫情实时救助</a></li>
+        <li><a href="https://promo.guahao.com/topic/pneumonia">微医抗击疫情实时救助</a></li>
       </div>
       <div className="fallback">
-        建议反馈交流: wechat (shanyue94)
+        <div>
+          代码仓库: <a href="https://github.com/shfshanyue/2019-ncov">shfshanyue/2019-ncov</a>
+        </div>
       </div>
     </div>
   );

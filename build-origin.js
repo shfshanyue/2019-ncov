@@ -41,7 +41,7 @@ const loadCityList = async data => {
       ...p,
       cities: p.cities.map(city => {
         let fullCityName = city.cityName
-        if (p.provinceShortName === '北京') {
+        if (p.provinceShortName === '北京' || p.provinceShortName === '上海') {
           fullCityName = city.cityName + '区'
         } else {
           if (city.cityName.length > 2 && /(市|州|区|旗)/.test(city.cityName)) {

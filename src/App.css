@@ -66,10 +66,28 @@
   text-align: center;
 }
 
-li > a {
-  color: #f60;
+a {
   text-decoration: none;
+  color: unset;
+}
+
+.info a {
+  color: #fff;
   cursor: pointer;
   line-height: 1.6em;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.info > li {
+  list-style: none;
+  background-color: #2834b9;
+  padding: .8rem 1.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: .5rem 0;
+  background-image: url(https://assets.dxycdn.com/gitrepo/bbs-mobile/dist/static/bg-image-3-2@2x.b56753cd.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 3rem;
 }
