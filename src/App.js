@@ -1,7 +1,8 @@
 import React, { useState, Suspense, useEffect } from 'react'
-import useSWR from 'swr'
 import keyBy from 'lodash.keyby'
 import dayjs from 'dayjs'
+import 'dayjs/locale/zh-cn'
+import relativeTime from 'dayjs/plugin/relativeTime'
 
 import all from './data/overall'
 import provinces from './data/area'
@@ -10,6 +11,8 @@ import Tag from './Tag'
 
 import './App.css'
 import axios from 'axios'
+
+dayjs.extend(relativeTime)
 
 const Map = React.lazy(() => import('./Map'))
 
@@ -25,7 +28,7 @@ function New ({ title, summary, sourceUrl, pubDate, pubDateStr }) {
     <div className="new">
       <div className="new-date">
         <div className="relative">
-          {pubDateStr} 
+          {dayjs(pubDate).locale('zh-cn').fromNow()}
         </div>
         {dayjs(pubDate).format('YYYY-MM-DD HH:mm')}
       </div>
@@ -37,9 +40,13 @@ function New ({ title, summary, sourceUrl, pubDate, pubDateStr }) {
 
 function News ({ province }) {
   const [len, setLen] = useState(8)
-  const { data: news } = useSWR('https://file1.dxycdn.com/2020/0127/794/3393185296027391740-115.json', fetcher, {
-    initialData: []
-  })
+  const [news, setNews] = useState([])
+
+  useEffect(() => {
+    fetcher('https://file1.dxycdn.com/2020/0127/794/3393185296027391740-115.json?t=26340019').then(news => {
+      setNews(news)
+    })
+  }, [])
 
   return (
     <div className="card">
