@@ -10,6 +10,25 @@
   padding-left: 1rem;
 }
 
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f60;
+  margin: .5rem 0;
+  display: block;
+}
+
+.new {
+  padding: 1rem 0;
+  border-bottom: 1px solid #efefef;
+}
+
+.new-date > .relative {
+  font-weight: 600;
+  display: inline-block;
+  padding-right: 1rem;
+}
+
 .province {
   display: flex;
   text-align: center;
