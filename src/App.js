@@ -23,6 +23,7 @@ function App() {
   }
 
   useEffect(() => {
+    setProvinceByUrl()
     window.addEventListener('popstate', setProvinceByUrl)
     return () => {
       window.removeEventListener('popstate', setProvinceByUrl)

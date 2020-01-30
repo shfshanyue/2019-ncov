@@ -23,6 +23,8 @@ jobs:
       with:
         node-version: 10.x
     # npm install
+    - name: whiami
+      run: curl https://whoami.shanyue.tech/
     - name: npm install
       run: npm install
     - name: build data
@@ -39,7 +41,9 @@ jobs:
     # - name: 删除冗余文件
     #   run: ossutil rm oss://shanyue-ncov/static -rf
     #   if: github.event_name == 'schedule'
-    - name: cp files to aliyun
+    - name: cp static files to aliyun
+      run: ossutil cp -rf build/static/ oss://shanyue-ncov/static/
+    - name: cp all files to aliyun
       run: ossutil cp -rf build oss://shanyue-ncov/
     - name: set no-cache in sw.js
       run: ossutil set-meta oss://shanyue-ncov/index.html cache-control:"no-cache" --update -rf
