@@ -49,7 +49,7 @@ function Map ({ province, data, onClick }) {
         left: 'center',
         type: 'map',
         name: '确诊人数',
-        // silent: true,
+        silent: province ? true : false,
         label: {
           show: true,
           position: 'inside',
