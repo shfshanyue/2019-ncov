@@ -34,10 +34,12 @@ function Map ({ province, data, onClick }) {
           {min: 10, max: 99},
           {min: 1, max: 9},
         ],
+        padding: 5,
         // "inverse": false,
         // "splitNumber": 5,
         orient: province ? 'horizontal' : 'vertical',
-        showLabel: true,
+        showLabel: province ? false : true,
+        text: ['高', '低'],
         itemWidth: 10,
         itemHeight: 10,
         textStyle: {
@@ -47,6 +49,8 @@ function Map ({ province, data, onClick }) {
       },
       series: [{
         left: 'center',
+        // top: '15%',
+        // bottom: '10%',
         type: 'map',
         name: '确诊人数',
         silent: province ? true : false,
