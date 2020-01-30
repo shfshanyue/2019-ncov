@@ -51,6 +51,8 @@ const loadCityList = async data => {
           const cityName = city.cityName.slice(0, 2)
           if (citiesByName[cityName]) {
             fullCityName = citiesByName[cityName].name
+          } else {
+            fullCityName = city.cityName + '市'
           }
         }
         return {

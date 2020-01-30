@@ -120,7 +120,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "仙桃"
+        "fullCityName": "仙桃市"
       },
       {
         "cityName": "天门",
@@ -128,7 +128,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 3,
-        "fullCityName": "天门"
+        "fullCityName": "天门市"
       },
       {
         "cityName": "潜江",
@@ -136,7 +136,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 1,
-        "fullCityName": "潜江"
+        "fullCityName": "潜江市"
       },
       {
         "cityName": "神农架林区",
@@ -144,7 +144,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "神农架林区"
+        "fullCityName": "神农架林区市"
       }
     ]
   },
@@ -567,7 +567,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "滑县"
+        "fullCityName": "滑县市"
       },
       {
         "cityName": "长垣县",
@@ -575,7 +575,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "长垣县"
+        "fullCityName": "长垣县市"
       }
     ]
   },
@@ -817,7 +817,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "宿松"
+        "fullCityName": "宿松市"
       },
       {
         "cityName": "滁州",
@@ -870,7 +870,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "万州区"
+        "fullCityName": "万州区市"
       },
       {
         "cityName": "开州区",
@@ -878,7 +878,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "开州区"
+        "fullCityName": "开州区市"
       },
       {
         "cityName": "云阳县",
@@ -886,7 +886,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "云阳县"
+        "fullCityName": "云阳县市"
       },
       {
         "cityName": "忠县",
@@ -894,7 +894,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "忠县"
+        "fullCityName": "忠县市"
       },
       {
         "cityName": "两江新区",
@@ -902,7 +902,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "两江新区"
+        "fullCityName": "两江新区市"
       },
       {
         "cityName": "渝北区",
@@ -910,7 +910,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "渝北区"
+        "fullCityName": "渝北区市"
       },
       {
         "cityName": "长寿区",
@@ -918,7 +918,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "长寿区"
+        "fullCityName": "长寿区市"
       },
       {
         "cityName": "石柱县",
@@ -926,7 +926,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "石柱县"
+        "fullCityName": "石柱县市"
       },
       {
         "cityName": "大渡口区",
@@ -934,7 +934,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "大渡口区"
+        "fullCityName": "大渡口区市"
       },
       {
         "cityName": "江北区",
@@ -942,7 +942,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "江北区"
+        "fullCityName": "江北区市"
       },
       {
         "cityName": "合川区",
@@ -950,7 +950,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "合川区"
+        "fullCityName": "合川区市"
       },
       {
         "cityName": "九龙坡区",
@@ -958,7 +958,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "九龙坡区"
+        "fullCityName": "九龙坡区市"
       },
       {
         "cityName": "垫江县",
@@ -966,7 +966,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "垫江县"
+        "fullCityName": "垫江县市"
       },
       {
         "cityName": "巫山县",
@@ -974,7 +974,7 @@
         "suspectedCount": 0,
         "curedCount": 1,
         "deadCount": 0,
-        "fullCityName": "巫山县"
+        "fullCityName": "巫山县市"
       },
       {
         "cityName": "巫溪县",
@@ -982,7 +982,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "巫溪县"
+        "fullCityName": "巫溪县市"
       },
       {
         "cityName": "綦江区",
@@ -990,7 +990,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "綦江区"
+        "fullCityName": "綦江区市"
       },
       {
         "cityName": "璧山区",
@@ -998,7 +998,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "璧山区"
+        "fullCityName": "璧山区市"
       },
       {
         "cityName": "奉节县",
@@ -1006,7 +1006,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "奉节县"
+        "fullCityName": "奉节县市"
       },
       {
         "cityName": "江津区",
@@ -1014,7 +1014,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "江津区"
+        "fullCityName": "江津区市"
       },
       {
         "cityName": "永川区",
@@ -1022,7 +1022,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "永川区"
+        "fullCityName": "永川区市"
       },
       {
         "cityName": "丰都县",
@@ -1030,7 +1030,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "丰都县"
+        "fullCityName": "丰都县市"
       },
       {
         "cityName": "大足区",
@@ -1038,7 +1038,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "大足区"
+        "fullCityName": "大足区市"
       },
       {
         "cityName": "铜梁区",
@@ -1046,7 +1046,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "铜梁区"
+        "fullCityName": "铜梁区市"
       },
       {
         "cityName": "潼南区",
@@ -1054,7 +1054,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "潼南区"
+        "fullCityName": "潼南区市"
       },
       {
         "cityName": "南岸区",
@@ -1062,7 +1062,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "南岸区"
+        "fullCityName": "南岸区市"
       },
       {
         "cityName": "渝中区",
@@ -1070,7 +1070,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "渝中区"
+        "fullCityName": "渝中区市"
       },
       {
         "cityName": "涪陵区",
@@ -1078,7 +1078,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "涪陵区"
+        "fullCityName": "涪陵区市"
       },
       {
         "cityName": "巴南区",
@@ -1086,7 +1086,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "巴南区"
+        "fullCityName": "巴南区市"
       },
       {
         "cityName": "梁平区",
@@ -1094,7 +1094,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "梁平区"
+        "fullCityName": "梁平区市"
       },
       {
         "cityName": "城口县",
@@ -1102,7 +1102,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "城口县"
+        "fullCityName": "城口县市"
       },
       {
         "cityName": "秀山县",
@@ -1110,7 +1110,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "秀山县"
+        "fullCityName": "秀山县市"
       },
       {
         "cityName": "黔江区",
@@ -1118,7 +1118,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "黔江区"
+        "fullCityName": "黔江区市"
       },
       {
         "cityName": "武隆区",
@@ -1126,7 +1126,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "武隆区"
+        "fullCityName": "武隆区市"
       }
     ]
   },
@@ -2365,7 +2365,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "韩城"
+        "fullCityName": "韩城市"
       }
     ]
   },
@@ -2402,7 +2402,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "万宁"
+        "fullCityName": "万宁市"
       },
       {
         "cityName": "儋州",
@@ -2418,7 +2418,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "琼海市"
+        "fullCityName": "琼海市市"
       },
       {
         "cityName": "澄迈县",
@@ -2426,7 +2426,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 1,
-        "fullCityName": "澄迈县"
+        "fullCityName": "澄迈县市"
       },
       {
         "cityName": "陵水县",
@@ -2434,7 +2434,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "陵水县"
+        "fullCityName": "陵水县市"
       },
       {
         "cityName": "临高县",
@@ -2442,7 +2442,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "临高县"
+        "fullCityName": "临高县市"
       },
       {
         "cityName": "东方市",
@@ -2450,7 +2450,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "东方市"
+        "fullCityName": "东方市市"
       },
       {
         "cityName": "琼中县",
@@ -2458,7 +2458,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "琼中县"
+        "fullCityName": "琼中县市"
       }
     ]
   },
@@ -2766,7 +2766,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "河北区"
+        "fullCityName": "河北区市"
       },
       {
         "cityName": "河东区",
@@ -2774,7 +2774,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "河东区"
+        "fullCityName": "河东区市"
       },
       {
         "cityName": "外地来津人员",
@@ -2782,7 +2782,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "外地来津人员"
+        "fullCityName": "外地来津人员市"
       },
       {
         "cityName": "河西区",
@@ -2790,7 +2790,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "河西区"
+        "fullCityName": "河西区市"
       },
       {
         "cityName": "和平区",
@@ -2798,7 +2798,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "和平区"
+        "fullCityName": "和平区市"
       },
       {
         "cityName": "西青区",
@@ -2806,7 +2806,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "西青区"
+        "fullCityName": "西青区市"
       },
       {
         "cityName": "滨海新区",
@@ -2814,7 +2814,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "滨海新区"
+        "fullCityName": "滨海新区市"
       },
       {
         "cityName": "南开区",
@@ -2822,7 +2822,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "南开区"
+        "fullCityName": "南开区市"
       },
       {
         "cityName": "红桥区",
@@ -2830,7 +2830,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "红桥区"
+        "fullCityName": "红桥区市"
       }
     ]
   },
@@ -3053,7 +3053,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "宁东管委会"
+        "fullCityName": "宁东管委会市"
       }
     ]
   },
@@ -3114,7 +3114,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "公主岭"
+        "fullCityName": "公主岭市"
       },
       {
         "cityName": "通化",
@@ -3167,7 +3167,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "第七师"
+        "fullCityName": "第七师市"
       },
       {
         "cityName": "第八师石河子",
@@ -3175,7 +3175,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "第八师石河子"
+        "fullCityName": "第八师石河子市"
       }
     ]
   },
