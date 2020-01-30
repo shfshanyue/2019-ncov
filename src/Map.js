@@ -3,7 +3,7 @@ import ReactEcharts from 'echarts-for-react'
 
 import 'echarts/map/js/china.js'
 
-function Map ({ province, data }) {
+function Map ({ province, data, onClick }) {
   if (province) {
     require(`echarts/map/js/province/${province.pinyin}`)
   }
@@ -49,7 +49,7 @@ function Map ({ province, data }) {
         left: 'center',
         type: 'map',
         name: '确诊人数',
-        silent: true,
+        // silent: true,
         label: {
           show: true,
           position: 'inside',
@@ -72,7 +72,11 @@ function Map ({ province, data }) {
     }
   }
   return (
-    <ReactEcharts option={getOption()} lazyUpdate={true} />
+    <ReactEcharts option={getOption()} lazyUpdate={true} onEvents={{
+      click (e) {
+        onClick(e.name)
+      }
+    }} />
   )
 }
 

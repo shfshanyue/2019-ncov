@@ -2,16 +2,15 @@ const axios = require('axios')
 const pinyin = require('pinyin')
 const fs = require('fs')
 
+const loadCountries = async data => {
+  const countries = data
+    .match(/window.getListByCountryTypeService2 = (.*?)}catch/)[1]
+  fs.writeFileSync('./src/data/countries.json', countries)
+}
+
 const loadOverall = async data => {
   const overall = data
     .match(/window.getStatisticsService = (.*?)}catch/)[1]
-  // const result = JSON.parse(overall)
-  // const numbers = result.countRemark.match(/\d+/g)
-  // console.log(result)
-  // result.confirmed = numbers[0]
-  // result.suspect = numbers[1]
-  // result.death = numbers[2]
-  // result.cured = numbers[3]
   fs.writeFileSync('./src/data/overall.json', overall)
 }
 
@@ -66,12 +65,13 @@ async function request () {
   return axios.request('https://3g.dxy.cn/newh5/view/pneumonia').then(({ data: html }) => {
     return Promise.all([
       loadCityList(html),
-      loadOverall(html)
+      loadOverall(html),
+      loadCountries(html)
     ])
   }).catch(e => {
     console.log('Retry')
     if (times++ > 10) {
-      throw new Error(e)
+      throw e
     }
     return request()
   })

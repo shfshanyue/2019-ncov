@@ -1,4 +1,4 @@
-import React, { useState, Suspense } from 'react'
+import React, { useState, Suspense, useEffect } from 'react'
 import keyBy from 'lodash.keyby'
 import dayjs from 'dayjs'
 
@@ -11,20 +11,38 @@ import './App.css'
 
 const Map = React.lazy(() => import('./Map'))
 
-const provincesByName = keyBy(provinces, 'pinyin')
+const provincesByName = keyBy(provinces, 'name')
+const provincesByPinyin = keyBy(provinces, 'pinyin')
 
 function App() {
-  const [province, setProvince] = useState(null)
+  const [province, _setProvince] = useState(null)
+
+  const setProvinceByUrl = () => {
+    const p = window.location.pathname.slice(1)
+    _setProvince(p ? provincesByPinyin[p] : null)
+  }
+
+  useEffect(() => {
+    window.addEventListener('popstate', setProvinceByUrl)
+    return () => {
+      window.removeEventListener('popstate', setProvinceByUrl)
+    }
+  }, [])
+
+  const setProvince = (p) => {
+    _setProvince(p)
+    window.history.pushState(null, null, p ? p.pinyin : '/')
+  }
 
   const data = !province ? provinces.map(p => ({
     name: p.provinceShortName,
     value: p.confirmedCount
-  })) : provincesByName[province.pinyin].cities.map(city => ({
+  })) : provincesByName[province.name].cities.map(city => ({
     name: city.fullCityName,
     value: city.confirmedCount
   }))
 
-  const area = province ? provincesByName[province.pinyin].cities : provinces
+  const area = province ? provincesByName[province.name].cities : provinces
   const overall = province ? province : all
 
   const renderArea = () => {
@@ -51,7 +69,7 @@ function App() {
         <h1>
           <small>新型冠状病毒</small>
           <br />
-          疫情实时动态 · 省市地图
+          疫情实时动态 · { province ? province.name : '省市地图' }
         </h1>
         <i>By 山月 (数据来源于丁香园)</i>
       </header>
@@ -97,7 +115,12 @@ function App() {
         }
         </h2>
         <Suspense fallback={<div className="loading">地图正在加载中...</div>}>
-          <Map province={province} data={data} />
+          <Map province={province} data={data} onClick={name => {
+            const p = provincesByName[name]
+            if (p) {
+              setProvince(p)
+            }
+          }} />
         </Suspense>
         <div className="province header">
           <div className="area">地区</div>
