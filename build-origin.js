@@ -34,6 +34,8 @@ const loadCityList = async data => {
       p.pinyin = 'shanxi1'
     } else if (p.provinceShortName === '重庆') {
       p.pinyin = 'chongqing'
+    } else if (p.provinceShortName === '西藏') {
+      p.pinyin = 'xizang'
     }
     const cities = getCitiesByProvince(p.provinceName)
     const citiesByName = _.keyBy(cities, city => city.name.slice(0, 2))
