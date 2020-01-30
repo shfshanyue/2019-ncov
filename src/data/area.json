@@ -120,7 +120,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "仙桃市"
+        "fullCityName": "仙桃"
       },
       {
         "cityName": "天门",
@@ -128,7 +128,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 3,
-        "fullCityName": "天门市"
+        "fullCityName": "天门"
       },
       {
         "cityName": "潜江",
@@ -136,7 +136,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 1,
-        "fullCityName": "潜江市"
+        "fullCityName": "潜江"
       },
       {
         "cityName": "神农架林区",
@@ -256,7 +256,7 @@
     "provinceShortName": "广东",
     "confirmedCount": 311,
     "suspectedCount": 0,
-    "curedCount": 6,
+    "curedCount": 7,
     "deadCount": 0,
     "comment": "待明确地区治愈 1 例",
     "cities": [
@@ -272,7 +272,7 @@
         "cityName": "广州",
         "confirmedCount": 79,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 1,
         "deadCount": 0,
         "fullCityName": "广州市"
       },
@@ -423,14 +423,14 @@
     "suspectedCount": 0,
     "curedCount": 2,
     "deadCount": 2,
-    "comment": "待明确地区：死亡 2 治愈 2",
+    "comment": "待明确地区：治愈 2",
     "cities": [
       {
         "cityName": "南阳",
         "confirmedCount": 51,
         "suspectedCount": 0,
         "curedCount": 0,
-        "deadCount": 1,
+        "deadCount": 2,
         "fullCityName": "南阳市"
       },
       {
@@ -567,7 +567,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "滑县市"
+        "fullCityName": "滑县"
       },
       {
         "cityName": "长垣县",
@@ -575,7 +575,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "长垣县市"
+        "fullCityName": "长垣县"
       }
     ]
   },
@@ -586,7 +586,7 @@
     "provinceShortName": "湖南",
     "confirmedCount": 277,
     "suspectedCount": 0,
-    "curedCount": 0,
+    "curedCount": 2,
     "deadCount": 0,
     "comment": "",
     "cities": [
@@ -594,7 +594,7 @@
         "cityName": "长沙",
         "confirmedCount": 57,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 1,
         "deadCount": 0,
         "fullCityName": "长沙市"
       },
@@ -674,7 +674,7 @@
         "cityName": "郴州",
         "confirmedCount": 10,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 1,
         "deadCount": 0,
         "fullCityName": "郴州市"
       },
@@ -692,7 +692,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "湘西自治州"
+        "fullCityName": "湘西土家族苗族自治州"
       },
       {
         "cityName": "张家界",
@@ -817,7 +817,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "宿松市"
+        "fullCityName": "宿松"
       },
       {
         "cityName": "滁州",
@@ -886,7 +886,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "云阳县市"
+        "fullCityName": "云阳县"
       },
       {
         "cityName": "忠县",
@@ -894,7 +894,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "忠县市"
+        "fullCityName": "忠县"
       },
       {
         "cityName": "两江新区",
@@ -926,7 +926,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "石柱县市"
+        "fullCityName": "石柱县"
       },
       {
         "cityName": "大渡口区",
@@ -966,7 +966,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "垫江县市"
+        "fullCityName": "垫江县"
       },
       {
         "cityName": "巫山县",
@@ -974,7 +974,7 @@
         "suspectedCount": 0,
         "curedCount": 1,
         "deadCount": 0,
-        "fullCityName": "巫山县市"
+        "fullCityName": "巫山县"
       },
       {
         "cityName": "巫溪县",
@@ -982,7 +982,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "巫溪县市"
+        "fullCityName": "巫溪县"
       },
       {
         "cityName": "綦江区",
@@ -1006,7 +1006,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "奉节县市"
+        "fullCityName": "奉节县"
       },
       {
         "cityName": "江津区",
@@ -1030,7 +1030,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "丰都县市"
+        "fullCityName": "丰都县"
       },
       {
         "cityName": "大足区",
@@ -1102,7 +1102,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "城口县市"
+        "fullCityName": "城口县"
       },
       {
         "cityName": "秀山县",
@@ -1110,7 +1110,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "秀山县市"
+        "fullCityName": "秀山县"
       },
       {
         "cityName": "黔江区",
@@ -1137,7 +1137,7 @@
     "provinceShortName": "江西",
     "confirmedCount": 162,
     "suspectedCount": 0,
-    "curedCount": 4,
+    "curedCount": 5,
     "deadCount": 0,
     "comment": "",
     "cities": [
@@ -1185,7 +1185,7 @@
         "cityName": "新余",
         "confirmedCount": 11,
         "suspectedCount": 0,
-        "curedCount": 2,
+        "curedCount": 3,
         "deadCount": 0,
         "fullCityName": "新余市"
       },
@@ -1236,7 +1236,7 @@
     "name": "山东",
     "provinceName": "山东省",
     "provinceShortName": "山东",
-    "confirmedCount": 145,
+    "confirmedCount": 158,
     "suspectedCount": 0,
     "curedCount": 1,
     "deadCount": 0,
@@ -1244,7 +1244,7 @@
     "cities": [
       {
         "cityName": "青岛",
-        "confirmedCount": 18,
+        "confirmedCount": 21,
         "suspectedCount": 0,
         "curedCount": 1,
         "deadCount": 0,
@@ -1257,6 +1257,14 @@
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "临沂市"
+      },
+      {
+        "cityName": "德州",
+        "confirmedCount": 15,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "德州市"
       },
       {
         "cityName": "威海",
@@ -1283,20 +1291,28 @@
         "fullCityName": "烟台市"
       },
       {
-        "cityName": "德州",
-        "confirmedCount": 11,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "德州市"
-      },
-      {
         "cityName": "日照",
-        "confirmedCount": 8,
+        "confirmedCount": 9,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "日照市"
+      },
+      {
+        "cityName": "枣庄",
+        "confirmedCount": 9,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "枣庄市"
+      },
+      {
+        "cityName": "滨州",
+        "confirmedCount": 9,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "滨州市"
       },
       {
         "cityName": "济宁",
@@ -1307,12 +1323,12 @@
         "fullCityName": "济宁市"
       },
       {
-        "cityName": "枣庄",
+        "cityName": "淄博",
         "confirmedCount": 8,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "枣庄市"
+        "fullCityName": "淄博市"
       },
       {
         "cityName": "潍坊",
@@ -1323,28 +1339,12 @@
         "fullCityName": "潍坊市"
       },
       {
-        "cityName": "滨州",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "滨州市"
-      },
-      {
         "cityName": "菏泽",
         "confirmedCount": 7,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "菏泽市"
-      },
-      {
-        "cityName": "淄博",
-        "confirmedCount": 6,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "淄博市"
       },
       {
         "cityName": "聊城",
@@ -1437,7 +1437,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "甘孜州"
+        "fullCityName": "甘孜藏族自治州"
       },
       {
         "cityName": "宜宾",
@@ -1517,7 +1517,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "凉山市"
+        "fullCityName": "凉山彝族自治州"
       },
       {
         "cityName": "资阳",
@@ -1651,11 +1651,11 @@
     "name": "北京",
     "provinceName": "北京市",
     "provinceShortName": "北京",
-    "confirmedCount": 111,
+    "confirmedCount": 114,
     "suspectedCount": 0,
     "curedCount": 4,
     "deadCount": 1,
-    "comment": "待明确地区：死亡 1",
+    "comment": "待明确地区：确诊3 死亡 1",
     "cities": [
       {
         "cityName": "海淀",
@@ -1760,7 +1760,7 @@
     "name": "上海",
     "provinceName": "上海市",
     "provinceShortName": "上海",
-    "confirmedCount": 101,
+    "confirmedCount": 112,
     "suspectedCount": 0,
     "curedCount": 5,
     "deadCount": 1,
@@ -1768,7 +1768,7 @@
     "cities": [
       {
         "cityName": "外地来沪人员",
-        "confirmedCount": 48,
+        "confirmedCount": 51,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 1,
@@ -1776,7 +1776,7 @@
       },
       {
         "cityName": "浦东",
-        "confirmedCount": 13,
+        "confirmedCount": 17,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -1824,11 +1824,19 @@
       },
       {
         "cityName": "闵行",
-        "confirmedCount": 3,
+        "confirmedCount": 4,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "闵行区"
+      },
+      {
+        "cityName": "松江",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "松江区"
       },
       {
         "cityName": "虹口",
@@ -1863,20 +1871,20 @@
         "fullCityName": "嘉定区"
       },
       {
-        "cityName": "松江",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "松江区"
-      },
-      {
         "cityName": "金山",
         "confirmedCount": 1,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "金山区"
+      },
+      {
+        "cityName": "杨浦",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "杨浦区"
       }
     ]
   },
@@ -2265,7 +2273,7 @@
     "name": "陕西",
     "provinceName": "陕西省",
     "provinceShortName": "陕西",
-    "confirmedCount": 56,
+    "confirmedCount": 63,
     "suspectedCount": 0,
     "curedCount": 0,
     "deadCount": 0,
@@ -2273,7 +2281,7 @@
     "cities": [
       {
         "cityName": "西安",
-        "confirmedCount": 18,
+        "confirmedCount": 22,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -2312,6 +2320,14 @@
         "fullCityName": "铜川市"
       },
       {
+        "cityName": "渭南",
+        "confirmedCount": 4,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "渭南市"
+      },
+      {
         "cityName": "宝鸡",
         "confirmedCount": 4,
         "suspectedCount": 0,
@@ -2328,20 +2344,28 @@
         "fullCityName": "延安市"
       },
       {
-        "cityName": "渭南",
-        "confirmedCount": 3,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "渭南市"
-      },
-      {
         "cityName": "商洛",
         "confirmedCount": 2,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "商洛市"
+      },
+      {
+        "cityName": "榆林",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "榆林市"
+      },
+      {
+        "cityName": "韩城",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "韩城"
       }
     ]
   },
@@ -2350,9 +2374,9 @@
     "name": "海南",
     "provinceName": "海南省",
     "provinceShortName": "海南",
-    "confirmedCount": 43,
+    "confirmedCount": 46,
     "suspectedCount": 0,
-    "curedCount": 0,
+    "curedCount": 1,
     "deadCount": 1,
     "comment": "",
     "cities": [
@@ -2360,7 +2384,7 @@
         "cityName": "三亚",
         "confirmedCount": 14,
         "suspectedCount": 0,
-        "curedCount": 0,
+        "curedCount": 1,
         "deadCount": 0,
         "fullCityName": "三亚市"
       },
@@ -2378,7 +2402,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "万宁市"
+        "fullCityName": "万宁"
       },
       {
         "cityName": "儋州",
@@ -2389,12 +2413,28 @@
         "fullCityName": "儋州市"
       },
       {
+        "cityName": "琼海市",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "琼海市"
+      },
+      {
         "cityName": "澄迈县",
         "confirmedCount": 2,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 1,
-        "fullCityName": "澄迈县市"
+        "fullCityName": "澄迈县"
+      },
+      {
+        "cityName": "陵水县",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "陵水县"
       },
       {
         "cityName": "临高县",
@@ -2402,23 +2442,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "临高县市"
-      },
-      {
-        "cityName": "陵水县",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "陵水县市"
-      },
-      {
-        "cityName": "琼海市",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "琼海市"
+        "fullCityName": "临高县"
       },
       {
         "cityName": "东方市",
@@ -2434,7 +2458,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "琼中县市"
+        "fullCityName": "琼中县"
       }
     ]
   },
@@ -2527,7 +2551,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "大兴安岭市"
+        "fullCityName": "大兴安岭地区"
       },
       {
         "cityName": "鹤岗",
@@ -2544,7 +2568,7 @@
     "name": "辽宁",
     "provinceName": "辽宁省",
     "provinceShortName": "辽宁",
-    "confirmedCount": 39,
+    "confirmedCount": 41,
     "suspectedCount": 0,
     "curedCount": 1,
     "deadCount": 0,
@@ -2600,11 +2624,19 @@
       },
       {
         "cityName": "本溪",
-        "confirmedCount": 2,
+        "confirmedCount": 3,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "本溪市"
+      },
+      {
+        "cityName": "盘锦",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "盘锦市"
       },
       {
         "cityName": "铁岭",
@@ -2613,14 +2645,6 @@
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "铁岭市"
-      },
-      {
-        "cityName": "盘锦",
-        "confirmedCount": 2,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "盘锦市"
       },
       {
         "cityName": "营口",
@@ -2730,7 +2754,7 @@
     "name": "天津",
     "provinceName": "天津市",
     "provinceShortName": "天津",
-    "confirmedCount": 28,
+    "confirmedCount": 29,
     "suspectedCount": 0,
     "curedCount": 0,
     "deadCount": 0,
@@ -2738,7 +2762,7 @@
     "cities": [
       {
         "cityName": "河北区",
-        "confirmedCount": 8,
+        "confirmedCount": 9,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -2758,7 +2782,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "外地来津人员市"
+        "fullCityName": "外地来津人员"
       },
       {
         "cityName": "河西区",
@@ -2770,7 +2794,7 @@
       },
       {
         "cityName": "和平区",
-        "confirmedCount": 2,
+        "confirmedCount": 3,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
@@ -2835,7 +2859,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "临夏市"
+        "fullCityName": "临夏回族自治州"
       },
       {
         "cityName": "定西",
@@ -2900,7 +2924,7 @@
     "name": "内蒙古",
     "provinceName": "内蒙古自治区",
     "provinceShortName": "内蒙古",
-    "confirmedCount": 16,
+    "confirmedCount": 18,
     "suspectedCount": 0,
     "curedCount": 0,
     "deadCount": 0,
@@ -2913,6 +2937,14 @@
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "包头市"
+      },
+      {
+        "cityName": "鄂尔多斯",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "鄂尔多斯市"
       },
       {
         "cityName": "呼和浩特",
@@ -2936,15 +2968,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "锡林郭勒盟市"
-      },
-      {
-        "cityName": "鄂尔多斯",
-        "confirmedCount": 2,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "鄂尔多斯市"
+        "fullCityName": "锡林郭勒盟"
       },
       {
         "cityName": "赤峰",
@@ -2955,12 +2979,20 @@
         "fullCityName": "赤峰市"
       },
       {
+        "cityName": "巴彦淖尔",
+        "confirmedCount": 2,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "巴彦淖尔市"
+      },
+      {
         "cityName": "兴安盟",
         "confirmedCount": 1,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "兴安盟市"
+        "fullCityName": "兴安盟"
       },
       {
         "cityName": "通辽",
@@ -2969,14 +3001,59 @@
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "通辽市"
+      }
+    ]
+  },
+  {
+    "pinyin": "ningxia",
+    "name": "宁夏",
+    "provinceName": "宁夏回族自治区",
+    "provinceShortName": "宁夏",
+    "confirmedCount": 17,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "银川",
+        "confirmedCount": 9,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "银川市"
       },
       {
-        "cityName": "巴彦淖尔",
+        "cityName": "吴忠",
+        "confirmedCount": 5,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "吴忠市"
+      },
+      {
+        "cityName": "中卫",
         "confirmedCount": 1,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "巴彦淖尔市"
+        "fullCityName": "中卫市"
+      },
+      {
+        "cityName": "固原",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "固原市"
+      },
+      {
+        "cityName": "宁东管委会",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0,
+        "fullCityName": "宁东管委会"
       }
     ]
   },
@@ -3021,7 +3098,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "延边市"
+        "fullCityName": "延边朝鲜族自治州"
       },
       {
         "cityName": "四平市",
@@ -3037,7 +3114,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "公主岭市"
+        "fullCityName": "公主岭"
       },
       {
         "cityName": "通化",
@@ -3074,7 +3151,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "伊犁州"
+        "fullCityName": "伊犁哈萨克自治州"
       },
       {
         "cityName": "吐鲁番",
@@ -3090,7 +3167,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "第七师市"
+        "fullCityName": "第七师"
       },
       {
         "cityName": "第八师石河子",
@@ -3098,7 +3175,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "第八师石河子市"
+        "fullCityName": "第八师石河子"
       }
     ]
   },
@@ -3119,7 +3196,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "黔南州"
+        "fullCityName": "黔南布依族苗族自治州"
       },
       {
         "cityName": "铜仁",
@@ -3143,7 +3220,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "黔西南州"
+        "fullCityName": "黔西南布依族苗族自治州"
       },
       {
         "cityName": "六盘水",
@@ -3167,7 +3244,7 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0,
-        "fullCityName": "黔东南州"
+        "fullCityName": "黔东南苗族侗族自治州"
       },
       {
         "cityName": "毕节",
@@ -3176,51 +3253,6 @@
         "curedCount": 0,
         "deadCount": 0,
         "fullCityName": "毕节市"
-      }
-    ]
-  },
-  {
-    "pinyin": "ningxia",
-    "name": "宁夏",
-    "provinceName": "宁夏回族自治区",
-    "provinceShortName": "宁夏",
-    "confirmedCount": 12,
-    "suspectedCount": 0,
-    "curedCount": 0,
-    "deadCount": 0,
-    "comment": "",
-    "cities": [
-      {
-        "cityName": "银川",
-        "confirmedCount": 7,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "银川市"
-      },
-      {
-        "cityName": "吴忠",
-        "confirmedCount": 3,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "吴忠市"
-      },
-      {
-        "cityName": "中卫",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "中卫市"
-      },
-      {
-        "cityName": "固原",
-        "confirmedCount": 1,
-        "suspectedCount": 0,
-        "curedCount": 0,
-        "deadCount": 0,
-        "fullCityName": "固原市"
       }
     ]
   },

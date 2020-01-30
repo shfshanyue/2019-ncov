@@ -1,6 +1,17 @@
 const axios = require('axios')
 const pinyin = require('pinyin')
 const fs = require('fs')
+const _ = require('lodash')
+const province = require('province-city-china/dist/province')
+const city = require('province-city-china/dist/city')
+
+const provinceByName = _.keyBy(province, p => p.name.slice(0, 2))
+const citiesByProvince = _.groupBy(city, 'province')
+
+const getCitiesByProvince = (name) => {
+  const code = provinceByName[name.slice(0, 2)].province
+  return citiesByProvince[code]
+}
 
 const loadCountries = async data => {
   const countries = data
@@ -14,15 +25,6 @@ const loadOverall = async data => {
   fs.writeFileSync('./src/data/overall.json', overall)
 }
 
-const cityMap = {
-  '恩施州': '恩施土家族苗族自治州',
-  '西双版纳': '西双版纳傣族自治州',
-  '大理': '大理白族自治州',
-  '红河': '红河哈尼族彝族自治州',
-  '德宏': '德宏傣族景颇族自治州',
-  '湘西自治州': '湘西苗族土家族自治州',
-}
-
 const loadCityList = async data => {
   const cityList = data
     .match(/window.getAreaStat = (.*?)}catch/)[1]
@@ -33,6 +35,8 @@ const loadCityList = async data => {
     } else if (p.provinceShortName === '重庆') {
       p.pinyin = 'chongqing'
     }
+    const cities = getCitiesByProvince(p.provinceName)
+    const citiesByName = _.keyBy(cities, city => city.name.slice(0, 2))
     return {
       pinyin: pinyin(p.provinceShortName, {
         style: pinyin.STYLE_NORMAL
@@ -44,13 +48,11 @@ const loadCityList = async data => {
         if (p.provinceShortName === '北京' || p.provinceShortName === '上海') {
           fullCityName = city.cityName + '区'
         } else {
-          if (city.cityName.length > 2 && /(市|州|区|旗)/.test(city.cityName)) {
-            fullCityName = city.cityName
-          } else {
-            fullCityName = city.cityName + '市'
+          const cityName = city.cityName.slice(0, 2)
+          if (citiesByName[cityName]) {
+            fullCityName = citiesByName[cityName].name
           }
         }
-        fullCityName = cityMap[city.cityName] || fullCityName
         return {
           ...city,
           fullCityName

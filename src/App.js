@@ -30,6 +30,12 @@ function App() {
     }
   }, [])
 
+  useEffect(() => {
+    if (province) {
+      window.document.title = `肺炎疫情实时地图 | ${province.name}`
+    }
+  }, [province])
+
   const setProvince = (p) => {
     _setProvince(p)
     window.history.pushState(null, null, p ? p.pinyin : '/')
