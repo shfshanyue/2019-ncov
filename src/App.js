@@ -38,7 +38,11 @@ function App() {
 
   const setProvince = (p) => {
     _setProvince(p)
-    window.history.pushState(null, null, p ? p.pinyin : '/')
+    if (window.history) {
+      window.history.pushState(null, null, p ? p.pinyin : '/')
+    } else {
+      window.location.href = p ? p.pinyin : '/'
+    }
   }
 
   const data = !province ? provinces.map(p => ({
