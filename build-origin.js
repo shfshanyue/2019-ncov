@@ -3,7 +3,7 @@ const pinyin = require('pinyin')
 const fs = require('fs')
 const _ = require('lodash')
 const province = require('province-city-china/dist/province')
-const city = require('province-city-china/dist/city')
+const city = require('province-city-china/dist/data')
 
 const provinceByName = _.keyBy(province, p => p.name.slice(0, 2))
 const citiesByProvince = _.groupBy(city, 'province')
@@ -38,7 +38,7 @@ const loadCityList = async data => {
       p.pinyin = 'xizang'
     }
     const cities = getCitiesByProvince(p.provinceName)
-    const citiesByName = _.keyBy(cities, city => city.name.slice(0, 2))
+    const citiesByName = _.keyBy(cities.reverse(), city => city.name.slice(0, 2))
     return {
       pinyin: pinyin(p.provinceShortName, {
         style: pinyin.STYLE_NORMAL
@@ -47,15 +47,9 @@ const loadCityList = async data => {
       ...p,
       cities: p.cities.map(city => {
         let fullCityName = city.cityName
-        if (p.provinceShortName === '北京' || p.provinceShortName === '上海') {
-          fullCityName = city.cityName + '区'
-        } else {
-          const cityName = city.cityName.slice(0, 2)
-          if (citiesByName[cityName]) {
-            fullCityName = citiesByName[cityName].name
-          } else {
-            fullCityName = city.cityName + '市'
-          }
+        const cityName = city.cityName.slice(0, 2)
+        if (citiesByName[cityName]) {
+          fullCityName = citiesByName[cityName].name
         }
         return {
           ...city,
