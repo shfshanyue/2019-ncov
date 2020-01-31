@@ -195,6 +195,11 @@ function App () {
               setProvince(p)
             }
           }} />
+          <div className="tip">
+            {
+              province ? `众志成城，共抗疫情，右上角分享${province.name}实时疫情地图及播报` : '在地图中点击省份可跳转到相应省份的疫情地图，并查看该省相关的实时动态'
+            }
+          </div>
         </Suspense>
         <div className="province header">
           <div className="area">地区</div>

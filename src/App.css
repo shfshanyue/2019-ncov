@@ -117,3 +117,9 @@ a {
   background-repeat: no-repeat;
   background-size: auto 3rem;
 }
+
+.tip {
+  color: #888;
+  padding: .5rem 0;
+  /* border-left: 1px solid #f60; */
+}
