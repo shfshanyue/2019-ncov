@@ -43,7 +43,7 @@ function News ({ province }) {
   const [news, setNews] = useState([])
 
   useEffect(() => {
-    fetcher(`https://file1.dxycdn.com/2020/0127/794/3393185296027391740-115.json?t=${36340019 + Math.random()}`).then(news => {
+    fetcher(`https://file1.dxycdn.com/2020/0130/492/3393874921745912795-115.json?t=${46341925 + Math.random()}`).then(news => {
       setNews(news)
     })
   }, [])
