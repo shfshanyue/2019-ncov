@@ -150,6 +150,7 @@ function Area ({ area, onChange }) {
 function Header ({ province }) {
   return (
     <header>
+      <div className="bg"></div>
       <h1>
         <small>新型冠状病毒</small>
         <br />
