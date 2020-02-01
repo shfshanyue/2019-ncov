@@ -78,6 +78,33 @@ function Summary () {
   )
 }
 
+function Stat ({ modifyTime, confirmedCount, suspectedCount, deadCount, curedCount, name }) {
+  return (
+    <div className="card">
+      <h2>
+        统计 {name ? `· ${name}` : false}
+        <span className="due">
+          截止时间: {dayjs(modifyTime).format('YYYY-MM-DD HH:mm')}
+        </span>
+      </h2>
+      <div className="row">
+        <Tag number={confirmedCount}>
+          确诊
+        </Tag>
+        <Tag number={suspectedCount || '-'}>
+          疑似
+        </Tag>
+        <Tag number={deadCount}>
+          死亡
+        </Tag>
+        <Tag number={curedCount}>
+          治愈
+        </Tag>
+      </div>
+    </div>
+  )
+}
+
 function Fallback () {
   return (
     <div className="fallback">
@@ -85,6 +112,51 @@ function Fallback () {
         代码仓库: <a href="https://github.com/shfshanyue/2019-ncov">shfshanyue/2019-ncov</a>
       </div>
     </div>
+  )
+}
+
+function Area ({ area, onChange }) {
+  const renderArea = () => {
+    return area.map(x => (
+      <div className="province" key={x.name || x.cityName} onClick={() => {
+        // 表示在省一级
+        if (x.name) {
+          onChange(x)
+        }
+      }}>
+        <div className={`area ${x.name ? 'active' : ''}`}>
+          { x.name || x.cityName }
+        </div>
+        <div className="confirmed">{ x.confirmedCount }</div>
+        <div className="death">{ x.deadCount }</div>
+        <div className="cured">{ x.curedCount }</div>
+      </div>
+    ))
+  }
+
+  return (
+    <>
+      <div className="province header">
+        <div className="area">地区</div>
+        <div className="confirmed">确诊</div>
+        <div className="death">死亡</div>
+        <div className="cured">治愈</div>
+      </div>
+      { renderArea() }
+    </>
+  )
+}
+
+function Header ({ province }) {
+  return (
+    <header>
+      <h1>
+        <small>新型冠状病毒</small>
+        <br />
+        疫情实时动态 · { province ? province.name : '省市地图' }
+      </h1>
+      <i>By 山月 (数据来源于丁香园)</i>
+    </header>
   )
 }
 
@@ -111,11 +183,7 @@ function App () {
 
   const setProvince = (p) => {
     _setProvince(p)
-    if (window.history) {
-      window.history.pushState(null, null, p ? p.pinyin : '/')
-    } else {
-      window.location.href = p ? p.pinyin : '/'
-    }
+    window.history.pushState(null, null, p ? p.pinyin : '/')
   }
 
   const data = !province ? provinces.map(p => ({
@@ -129,71 +197,14 @@ function App () {
   const area = province ? provincesByName[province.name].cities : provinces
   const overall = province ? province : all
 
-  const renderArea = () => {
-    return area.map(x => (
-      <div className="province" key={x.name || x.cityName} onClick={() => {
-        // 表示在省一级
-        if (x.name) {
-          setProvince(x)
-        }
-      }}>
-        <div className={`area ${x.name ? 'active' : ''}`}>
-          { x.name || x.cityName }
-        </div>
-        <div className="confirmed">{ x.confirmedCount }</div>
-        <div className="death">{ x.deadCount }</div>
-        <div className="cured">{ x.curedCount }</div>
-      </div>
-    ))
-  }
-
   return (
     <div>
-      <header>
-        <h1>
-          <small>新型冠状病毒</small>
-          <br />
-          疫情实时动态 · { province ? province.name : '省市地图' }
-        </h1>
-        <i>By 山月 (数据来源于丁香园)</i>
-      </header>
-      <div className="card">
-        <h2>
-          统计 { province ? `· ${province.name}` : false }
-          <span className="due">
-            截止时间: {dayjs(all.modifyTime).format('YYYY-MM-DD HH:mm')}
-          </span>
-        </h2>
-        <div>
-          <div className="row">
-            <Tag number={overall.confirmedCount}>
-              确诊
-            </Tag>
-            <Tag number={overall.suspectedCount || '-'}>
-              疑似
-            </Tag>
-          {/* </div>
-          <div className="row"> */}
-            <Tag number={overall.deadCount}>
-              死亡
-            </Tag>
-            <Tag number={overall.curedCount}>
-              治愈
-            </Tag>
-          </div>
-        </div>
-      </div>
+      <Header province={province} />
+      <Stat { ...overall } name={province && province.name} modifyTime={all.modifyTime} />
       <div className="card">
         <h2>疫情地图 { province ? `· ${province.name}` : false }
         {
           province ? <small
-            style={{
-              color: '#f60',
-              position: 'absolute',
-              right: 0,
-              top: '50%',
-              transform: 'translateY(-50%)',
-            }}
             onClick={() => setProvince(null)}
           >返回全国</small> : null
         }
@@ -212,13 +223,7 @@ function App () {
               </div>
           }
         </Suspense>
-        <div className="province header">
-          <div className="area">地区</div>
-          <div className="confirmed">确诊</div>
-          <div className="death">死亡</div>
-          <div className="cured">治愈</div>
-        </div>
-        { renderArea() }
+        <Area area={area} onChange={setProvince} />
       </div>
       <News province={province} />
       <Summary />
