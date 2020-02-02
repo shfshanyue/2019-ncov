@@ -3,6 +3,10 @@
   background-color: #111;
 }
 
+header i {
+  color: #eee;
+}
+
 .due {
   font-size: .9rem;
   color: #888;

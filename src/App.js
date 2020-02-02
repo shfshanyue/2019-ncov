@@ -156,7 +156,7 @@ function Header ({ province }) {
         <br />
         疫情实时动态 · { province ? province.name : '省市地图' }
       </h1>
-      <i>By 山月 (数据来源于丁香园)</i>
+      <i>By 全栈成长之路</i>
     </header>
   )
 }
