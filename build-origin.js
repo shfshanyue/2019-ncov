@@ -9,8 +9,9 @@ const provinceByName = _.keyBy(province, p => p.name.slice(0, 2))
 const citiesByProvince = _.groupBy(city, 'province')
 
 const getCitiesByProvince = (name) => {
-  const code = provinceByName[name.slice(0, 2)].province
-  return citiesByProvince[code]
+  const provinceName = name.slice(0, 2)
+  const code = _.get(provinceByName, [provinceName, 'province'])
+  return citiesByProvince[code] || []
 }
 
 const loadCountries = async data => {
@@ -71,7 +72,7 @@ async function request () {
     ])
   }).catch(e => {
     console.log('Retry')
-    if (times++ > 10) {
+    if (times++ > 1) {
       throw e
     }
     return request()
