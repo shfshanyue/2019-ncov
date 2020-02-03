@@ -1,8 +1,8 @@
-# 武汉肺炎疫情实时动态省市地图
+# 新型冠状病毒疫情实时动态省市地图
 
 > 武汉加油，众志成城，共抗疫情
 
-最近所有人的注意力都集中在武汉疫情上，在 [丁香园肺炎疫情实时动态](https://3g.dxy.cn/newh5/view/pneumonia?from=timeline) 中提供了疫情地图及实时权威新闻，但其中并没有省市地图。
+最近所有人的注意力都集中在武汉的疫情上，在 [丁香园肺炎疫情实时动态](https://3g.dxy.cn/newh5/view/pneumonia?from=timeline) 中提供了疫情地图及实时权威新闻，但其中并没有省市地图。
 
 我在每天闭门不出为国家做贡献的同时，对疫情地图做了简单的扩展，能够显示某个省的疫情以及消息播报，旨在帮助大家更加直观了解自己家乡的情况。最后提醒大家尽量不出门，出门后必戴口罩。
 
@@ -36,10 +36,6 @@
 + [ ] 运营，分享时生成图片，利于分享及传播
 + [ ] 运营，添加微信分享的 API
 
-## 截图
-
-<img src="./public/screen.png">
-
 ## 快速开始
 
 ``` bash
@@ -49,10 +45,22 @@ $ node build-origin.js
 $ npm start
 ```
 
-## 数据来源
-
-数据爬自丁香园，使用脚本 `build-origin.js` 获取数据。数据每半个小时爬取一次，直接注入到前端，因此对丁香园造成的压力很小
-
 ## 部署
 
 使用 `github actions` 与 `alioss` 自动部署，使用 `github actions` 的定时任务每半个小时部署一次(为了获取最新数据)。
+
+关于部署可以参考以下两篇文章
+
++ [使用 AliOSS 部署及加速你的静态网站](https://github.com/shfshanyue/you-dont-need-vps/blob/master/deploy-fe-with-alioss.md)
++ [github actions 持续集成简介及实践](https://github.com/shfshanyue/you-dont-need-vps/blob/master/github-action-guide.md)
+
+## 数据来源
+
+数据爬自丁香园，使用脚本 `build-origin.js` 获取数据。数据每半个小时爬取一次，直接注入到前端，因此对丁香园造成的压力很小。
+
+另外，如果你需要更详细的数据，可以参考项目 [BlankerL/DXY-2019-nCoV-Crawler](https://github.com/BlankerL/DXY-2019-nCoV-Crawler)。
+
+## 截图
+
+<img src="./public/screen.png">
+
