@@ -93,6 +93,7 @@
     ]
   },
   "devDependencies": {
+    "ali-oss": "^6.5.1",
     "province-city-china": "^5.0.2",
     "webpack-bundle-analyzer": "^3.6.0"
   },
