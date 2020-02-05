@@ -9,8 +9,11 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    env:
+      CI: true
+      ACCESS_KEY: ${{ secrets.OSS_KEY_ID }}
+      ACCESS_SECRET: ${{ secrets.OSS_KEY_SECRET }}
 
     steps:
     # 切代码到 runner
@@ -26,16 +29,13 @@ jobs:
     - name: whami
       run: curl https://whoami.shanyue.tech/
     - name: npm install
-      run: npm install
+      run: npm ci
     - name: build data
       run: node scripts/build-origin.js
     - name: npm run build
       run: npm run build
     - name: cp static files to aliyun
       run: node scripts/upload-oss.js
-      env:
-        ACCESS_KEY: ${{ secrets.OSS_KEY_ID }}
-        ACCESS_SECRET: ${{ secrets.OSS_KEY_SECRET }}
     # 设置阿里云OSS的 id/secret，存储到 github 的 secrets 中
     # - name: setup aliyun oss
     #   uses: manyuanrong/setup-ossutil@v1.0
