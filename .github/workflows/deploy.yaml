@@ -25,9 +25,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
-    # npm install
-    - name: whami
-      run: curl https://whoami.shanyue.tech/
     - name: npm install
       run: npm ci
     - name: build data
@@ -36,19 +33,20 @@ jobs:
       run: npm run build
     - name: cp static files to aliyun
       run: node scripts/upload-oss.js
-    # 设置阿里云OSS的 id/secret，存储到 github 的 secrets 中
-    # - name: setup aliyun oss
-    #   uses: manyuanrong/setup-ossutil@v1.0
-    #   with:
-    #     endpoint: oss-cn-beijing.aliyuncs.com
-    #     access-key-id: ${{ secrets.OSS_KEY_ID }}
-    #     access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
-    # - name: 删除冗余文件
-    #   run: ossutil rm oss://shanyue-ncov/static -rf
-    #   if: github.event_name == 'schedule'
-    # - name: update ossutil
-    #   run: ossutil update -f
-    # - name: cp static files to aliyun
-    #   run: ossutil cp -r build/static/ oss://shanyue-ncov/static/ --update
-    # - name: cp all files to aliyun
-    #   run: ossutil cp -r build/ oss://shanyue-ncov/ --update --only-current-dir --exclude precache*
+
+      # 设置阿里云OSS的 id/secret，存储到 github 的 secrets 中
+      # - name: setup aliyun oss
+      #   uses: manyuanrong/setup-ossutil@v1.0
+      #   with:
+      #     endpoint: oss-cn-beijing.aliyuncs.com
+      #     access-key-id: ${{ secrets.OSS_KEY_ID }}
+      #     access-key-secret: ${{ secrets.OSS_KEY_SECRET }}
+      # - name: 删除冗余文件
+      #   run: ossutil rm oss://shanyue-ncov/static -rf
+      #   if: github.event_name == 'schedule'
+      # - name: update ossutil
+      #   run: ossutil update -f
+      # - name: cp static files to aliyun
+      #   run: ossutil cp -r build/static/ oss://shanyue-ncov/static/ --update
+      # - name: cp all files to aliyun
+      #   run: ossutil cp -r build/ oss://shanyue-ncov/ --update --only-current-dir --exclude precache*
