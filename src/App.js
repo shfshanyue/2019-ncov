@@ -78,7 +78,7 @@ function Summary () {
   )
 }
 
-function Stat ({ modifyTime, confirmedCount, suspectedCount, deadCount, curedCount, name }) {
+function Stat ({ modifyTime, confirmedCount, suspectedCount, deadCount, curedCount, name, quanguoTrendChart, hbFeiHbTrendChart }) {
   return (
     <div className="card">
       <h2>
@@ -100,6 +100,12 @@ function Stat ({ modifyTime, confirmedCount, suspectedCount, deadCount, curedCou
         <Tag number={curedCount}>
           治愈
         </Tag>
+      </div>
+      <div>
+        <img width="100%" src={quanguoTrendChart[0].imgUrl} alt="" />
+      </div>
+      <div>
+        <img width="100%" src={hbFeiHbTrendChart[0].imgUrl} alt="" />
       </div>
     </div>
   )
@@ -201,7 +207,7 @@ function App () {
   return (
     <div>
       <Header province={province} />
-      <Stat { ...overall } name={province && province.name} modifyTime={all.modifyTime} />
+      <Stat { ...{ ...all, ...overall } } name={province && province.name} />
       <div className="card">
         <h2>疫情地图 { province ? `· ${province.name}` : false }
         {
