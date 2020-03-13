@@ -152,8 +152,8 @@ function Area ({ area, onChange,data }) {
           "VIC":"Victoria",
           "QLD":"Queensland",
           "SA":"South Australia",
-          "TAS":"Tasmania",
-      }
+          "TAS":"Tasmania"
+      };
     return data.map(x => (
       <div className="province" key={x.name || x.cityName} onClick={() => {
         // 表示在省一级
@@ -168,7 +168,7 @@ function Area ({ area, onChange,data }) {
         {/*<div className="death">{ x.deadCount }</div>*/}
         {/*<div className="cured">{ x.curedCount }</div>*/}
           <div className={"area"}>
-              { x[0] }
+              { translate[x[0]] }
           </div>
           <div className="confirmed">{ x[1] }</div>
           <div className="death">{ x[2] }</div>
@@ -269,7 +269,7 @@ function App () {
             if (p) {
               setProvince(p)
             }
-          }} />
+          }} newDate={myData}/>
           {/*{*/}
             {/*province ? false :*/}
               {/*<div className="tip">*/}
