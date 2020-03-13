@@ -1,7 +1,7 @@
 import React, { useState, Suspense, useEffect } from 'react'
 import keyBy from 'lodash.keyby'
 import dayjs from 'dayjs'
-import 'dayjs/locale/zh-cn'
+import 'dayjs/locale/en-au'
 import relativeTime from 'dayjs/plugin/relativeTime'
 
 import all from './data/overall'
@@ -11,6 +11,7 @@ import Tag from './Tag'
 
 import './App.css'
 import axios from 'axios'
+import Papa from "papaparse";
 
 dayjs.extend(relativeTime)
 
@@ -28,7 +29,7 @@ function New ({ title, summary, sourceUrl, pubDate, pubDateStr }) {
     <div className="new">
       <div className="new-date">
         <div className="relative">
-          {dayjs(pubDate).locale('zh-cn').fromNow()}
+          {dayjs(pubDate).locale('en-au').fromNow()}
         </div>
         {dayjs(pubDate).format('YYYY-MM-DD HH:mm')}
       </div>
@@ -78,35 +79,55 @@ function Summary () {
   )
 }
 
-function Stat ({ modifyTime, confirmedCount, suspectedCount, deadCount, curedCount, name, quanguoTrendChart, hbFeiHbTrendChart }) {
-  return (
+function Stat ({ modifyTime, confirmedCount, suspectedCount, deadCount, curedCount, name, quanguoTrendChart, hbFeiHbTrendChart ,data}) {
+    if(data){
+        confirmedCount = 0;
+
+        deadCount = 0;
+        curedCount = 0;
+        for (let i = 1; i < data.length; i++) {
+            confirmedCount += parseInt(data[i][1])
+            deadCount += parseInt(data[i][2])
+            curedCount += parseInt(data[i][3])
+    }}
+    else
+    {
+        confirmedCount = 0;
+
+        deadCount = 0;
+        curedCount = 0;
+    }
+
+
+    return (
+
     <div className="card">
       <h2>
-        统计 {name ? `· ${name}` : false}
-        <span className="due">
-          截止时间: {dayjs(modifyTime).format('YYYY-MM-DD HH:mm')}
-        </span>
+        Status {name ? `· ${name}` : false}
+        {/*<span className="due">*/}
+          {/*Updated Time: {dayjs(modifyTime).format('YYYY-MM-DD HH:mm')}*/}
+        {/*</span>*/}
       </h2>
       <div className="row">
         <Tag number={confirmedCount}>
-          确诊
+          Confirmed
         </Tag>
-        <Tag number={suspectedCount || '-'}>
-          疑似
-        </Tag>
+        {/*<Tag number={suspectedCount || '-'}>*/}
+          {/*疑似*/}
+        {/*</Tag>*/}
         <Tag number={deadCount}>
-          死亡
+          Deaths
         </Tag>
         <Tag number={curedCount}>
-          治愈
+          Recovered
         </Tag>
       </div>
-      <div>
-        <img width="100%" src={quanguoTrendChart[0].imgUrl} alt="" />
-      </div>
-      <div>
-        <img width="100%" src={hbFeiHbTrendChart[0].imgUrl} alt="" />
-      </div>
+      {/*<div>*/}
+        {/*<img width="100%" src={quanguoTrendChart[0].imgUrl} alt="" />*/}
+      {/*</div>*/}
+      {/*<div>*/}
+        {/*<img width="100%" src={hbFeiHbTrendChart[0].imgUrl} alt="" />*/}
+      {/*</div>*/}
     </div>
   )
 }
@@ -121,21 +142,37 @@ function Fallback () {
   )
 }
 
-function Area ({ area, onChange }) {
+function Area ({ area, onChange,data }) {
   const renderArea = () => {
-    return area.map(x => (
+      let translate = {
+          "NSW":"New South Wales",
+          "ACT":"Australian Capital Territory",
+          "NT":"Northern Territory",
+          "WA":"Western Australia",
+          "VIC":"Victoria",
+          "QLD":"Queensland",
+          "SA":"South Australia",
+          "TAS":"Tasmania",
+      }
+    return data.map(x => (
       <div className="province" key={x.name || x.cityName} onClick={() => {
         // 表示在省一级
-        if (x.name) {
-          onChange(x)
-        }
+        // if (x.name) {
+        //   onChange(x)
+        // }
       }}>
-        <div className={`area ${x.name ? 'active' : ''}`}>
-          { x.name || x.cityName }
-        </div>
-        <div className="confirmed">{ x.confirmedCount }</div>
-        <div className="death">{ x.deadCount }</div>
-        <div className="cured">{ x.curedCount }</div>
+        {/*<div className={`area ${x.name ? 'active' : ''}`}>*/}
+          {/*{ x.name || x.cityName }*/}
+        {/*</div>*/}
+        {/*<div className="confirmed">{ x.confirmedCount }</div>*/}
+        {/*<div className="death">{ x.deadCount }</div>*/}
+        {/*<div className="cured">{ x.curedCount }</div>*/}
+          <div className={"area"}>
+              { x[0] }
+          </div>
+          <div className="confirmed">{ x[1] }</div>
+          <div className="death">{ x[2] }</div>
+          <div className="cured">{ x[3] }</div>
       </div>
     ))
   }
@@ -143,10 +180,10 @@ function Area ({ area, onChange }) {
   return (
     <>
       <div className="province header">
-        <div className="area">地区</div>
-        <div className="confirmed">确诊</div>
-        <div className="death">死亡</div>
-        <div className="cured">治愈</div>
+        <div className="area">State</div>
+        <div className="confirmed">Confirmed</div>
+        <div className="death">Death</div>
+        <div className="cured">Recovered</div>
       </div>
       { renderArea() }
     </>
@@ -158,11 +195,11 @@ function Header ({ province }) {
     <header>
       <div className="bg"></div>
       <h1>
-        <small>新型冠状病毒</small>
+        <small>COVID-19</small>
         <br />
-        疫情实时动态 · { province ? province.name : '省市地图' }
+        Australia Status · { province ? province.name : 'State Details' }
       </h1>
-      <i>By 全栈成长之路</i>
+      <i>By Monash Group?</i>
     </header>
   )
 }
@@ -181,10 +218,20 @@ function App () {
       window.removeEventListener('popstate', setProvinceByUrl)
     }
   }, [])
+    const [ myData, setMyData] = useState(null);
+    useEffect(() => {
 
+        Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vTWq32Sh-nuY61nzNCYauMYbiOZhIE8TfnyRhu1hnVs-i-oLdOO65Ax0VHDtcctn44l7NEUhy7gHZUm/pub?output=csv", {
+            download: true,
+            complete: function(results) {
+
+                setMyData(results.data)
+
+            }
+        });})
   useEffect(() => {
     if (province) {
-      window.document.title = `肺炎疫情实时地图 | ${province.name}`
+      window.document.title = `Convid-19 Live Status | ${province.name}`
     }
   }, [province])
 
@@ -203,40 +250,43 @@ function App () {
 
   const area = province ? provincesByName[province.name].cities : provinces
   const overall = province ? province : all
-
+  if(myData){
   return (
     <div>
       <Header province={province} />
-      <Stat { ...{ ...all, ...overall } } name={province && province.name} />
+      <Stat { ...{ ...all, ...overall } } name={province && province.name} data={myData} />
       <div className="card">
-        <h2>疫情地图 { province ? `· ${province.name}` : false }
+        <h2>Infected Map { province ? `· ${province.name}` : false }
         {
           province ? <small
             onClick={() => setProvince(null)}
-          >返回全国</small> : null
+          >Return</small> : null
         }
         </h2>
-        <Suspense fallback={<div className="loading">地图正在加载中...</div>}>
+        <Suspense fallback={<div className="loading">Loading...</div>}>
           <Map province={province} data={data} onClick={name => {
             const p = provincesByName[name]
             if (p) {
               setProvince(p)
             }
           }} />
-          {
-            province ? false :
-              <div className="tip">
-                在地图中点击省份可跳转到相应省份的疫情地图，并查看该省相关的实时动态
-              </div>
-          }
+          {/*{*/}
+            {/*province ? false :*/}
+              {/*<div className="tip">*/}
+                {/*Click on the state to check state details.*/}
+              {/*</div>*/}
+          {/*}*/}
         </Suspense>
-        <Area area={area} onChange={setProvince} />
+        <Area area={area} onChange={setProvince} data={myData} />
       </div>
       <News province={province} />
       <Summary />
       <Fallback />
     </div>
-  );
+  )}
+  else{
+        return null
+  }
 }
 
 export default App;
