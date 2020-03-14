@@ -15,6 +15,10 @@ import Papa from "papaparse";
 
 dayjs.extend(relativeTime)
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-160673543-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 const Map = React.lazy(() => import('./Map'))
 
 const provincesByName = keyBy(provinces, 'name')
