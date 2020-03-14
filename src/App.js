@@ -237,6 +237,7 @@ function Area({ area, onChange, data }) {
       SA: "South Australia",
       TAS: "Tasmania"
     };
+    data.splice(0, 1);
     return data.map(x => (
       <div
         className="province"
