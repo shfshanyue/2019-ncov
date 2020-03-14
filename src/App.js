@@ -290,9 +290,9 @@ function Stat({
     <div className="card">
       <h2>
         Status {name ? `· ${name}` : false}
-        {/*<span className="due">*/}
-        {/*Updated Time: {dayjs(modifyTime).format('YYYY-MM-DD HH:mm')}*/}
-        {/*</span>*/}
+        <span className="due">
+        Update Hourly
+        </span>
       </h2>
       <div className="row">
         <Tag number={confirmedCount}>Confirmed</Tag>
