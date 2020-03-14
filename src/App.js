@@ -97,25 +97,28 @@ function News({ province }) {
     //   </div>
     // </div>
     <div className="card">
-      <h2>News</h2>
-      {/* <div className="centerContent">
+      <h2>Tweet Feed</h2>
+      <div className="centerContent">
         <div className="selfCenter standardWidth">
           <TwitterTimelineEmbed
             sourceType="list"
             ownerScreenName="kLSAUPZszP2n6zX"
-            slug="covid19-australia"
-            options={{ height: 400 }}
+            slug="COVID19-Australia"
+            options={{
+              transparent: true,
+              height: 720
+            }}
           />
         </div>
-      </div> */}
-      <a
+      </div>
+      {/* <a
         class="twitter-timeline"
         data-dnt="true"
         data-theme="light"
         href="https://twitter.com/kLSAUPZszP2n6zX/lists/covid19-australia?ref_src=twsrc%5Etfw"
       >
         A Twitter List by kLSAUPZszP2n6zX
-      </a>{" "}
+      </a>{" "} */}
     </div>
   );
 }
