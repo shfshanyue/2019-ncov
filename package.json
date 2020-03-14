@@ -79,11 +79,14 @@
     "webpack-manifest-plugin": "2.2.0",
     "workbox-webpack-plugin": "4.3.1"
   },
+  "homepage": "https://freddiewanah.github.io/2019-ncov/",
   "scripts": {
     "analyze": "ANALYZE=1 npm run build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -102,6 +105,7 @@
   },
   "devDependencies": {
     "ali-oss": "^6.5.1",
+    "gh-pages": "^2.2.0",
     "province-city-china": "^5.0.2",
     "webpack-bundle-analyzer": "^3.6.0"
   },
