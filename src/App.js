@@ -67,9 +67,9 @@ function HistoryGraph({countryData}) {
     let newData = [[{ type: 'date', label: 'Day' },'New Cases','Deaths']];
     for (let key in countryData) {
         let date = new Date(key);
-        historyData.push([date,countryData[key][0],countryData[key][1],countryData[key][2],countryData[key][3]])
+        historyData.push([date,countryData[key][0],countryData[key][2],countryData[key][1],countryData[key][3]])
     }
-    newData.push([historyData[1][0],historyData[1][1],historyData[1][2]])
+    newData.push([historyData[1][0],historyData[1][1],historyData[1][3]])
     for(let i = 2; i < historyData.length; i++) {
         newData.push([historyData[i][0], historyData[i][1] - historyData[i - 1][1], historyData[i][2]-historyData[i-1][2]])
     }
@@ -94,7 +94,7 @@ function HistoryGraph({countryData}) {
                 width={'100%'}
                 height={'400px'}
                 chartType="LineChart"
-                loader={<div>Loading Chart</div>}
+                loader={<div>Loading Chart...</div>}
                 data={historyData}
                 options={options}
                 rootProps={{ 'data-testid': '3' }}
@@ -103,7 +103,6 @@ function HistoryGraph({countryData}) {
                 width={'100%'}
                 height={'400px'}
                 chartType="ColumnChart"
-                loader={<div>Loading Chart</div>}
                 data={newData}
                 options={newOptions}
 
