@@ -43,24 +43,7 @@ const fetcher = url =>
     return data.data.data;
   });
 
-function New({ title, summary, sourceUrl, pubDate, pubDateStr }) {
-  return (
-    <div className="new">
-      <div className="new-date">
-        <div className="relative">
-          {dayjs(pubDate)
-            .locale("en-au")
-            .fromNow()}
-        </div>
-        {dayjs(pubDate).format("YYYY-MM-DD HH:mm")}
-      </div>
-      <a className="title" href={sourceUrl}>
-        {title}
-      </a>
-      <div className="summary">{summary.slice(0, 100)}...</div>
-    </div>
-  );
-}
+
 
 function HistoryGraph({countryData}) {
     let historyData = [[{ type: 'date', label: 'Day' },'Confirmed','Deaths','Recoverd','Existing']];
@@ -89,7 +72,7 @@ function HistoryGraph({countryData}) {
     };
     return(
         <div className="card">
-            <h2>History Graph</h2>
+            <h2>Status Graph</h2>
             <Chart
                 width={'100%'}
                 height={'400px'}
@@ -113,7 +96,71 @@ function HistoryGraph({countryData}) {
     )
 }
 
+function New({ title, contentSnippet, link, pubDate, pubDateStr }) {
+
+    return (
+        <div className="new">
+            <div className="new-date">
+                <div className="relative">
+                    {dayjs(pubDate)
+                        .locale("en-au")
+                        .fromNow()}
+                </div>
+                {dayjs(pubDate).format("YYYY-MM-DD HH:mm")}
+            </div>
+            <a target="_blank" className="title" href={link}>
+                {title}
+            </a>
+            <div className="summary">{contentSnippet.split("&nbsp;")[0]}...</div>
+        </div>
+    );
+}
+
 function News({ province }) {
+    let Parser = require('rss-parser');
+
+    const [len, setLen] = useState(8);
+    const [news, setNews] = useState([]);
+
+    useEffect(() => {
+        let parser = new Parser({
+            headers:{'Access-Control-Allow-Origin':'*'}
+        });
+        const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
+        parser.parseURL(CORS_PROXY + 'https://news.google.com/rss/search?q=COVID%2019-Australia&hl=en-US&gl=AU&ceid=AU:en', function(err, feed) {
+            if (err) throw err;
+            // console.log(feed.title);
+            // feed.items.forEach(function(entry) {
+            //     console.log(entry);
+            // })
+            setNews(feed.items)
+        })
+
+
+    }, []);
+
+    return (
+
+        <div className="card">
+            <h2>News Feed</h2>
+            {news
+            .slice(0, len)
+            .map(n => (
+              <New {...n} key={n.id} />
+            ))}
+          <div
+            className="more"
+            onClick={() => {
+              setLen();
+            }}
+          >
+            Click for more news...
+          </div>
+        </div>
+    );
+}
+
+function Tweets({ province }) {
   const [len, setLen] = useState(8);
   const [news, setNews] = useState([]);
 
@@ -431,8 +478,8 @@ function App() {
 
         </div>
           <HistoryGraph countryData={country}/>
-
-        <News province={province} />
+        <News />
+        <Tweets province={province} />
         <Summary />
         <Fallback />
       </div>
