@@ -3,10 +3,12 @@ import keyBy from "lodash.keyby";
 import dayjs from "dayjs";
 import "dayjs/locale/en-au";
 import relativeTime from "dayjs/plugin/relativeTime";
-
+import { Chart } from "react-google-charts";
+import country from "./data/country"
 import all from "./data/overall";
 import provinces from "./data/area";
 import Tag from "./Tag";
+
 
 import "./App.css";
 import axios from "axios";
@@ -58,6 +60,58 @@ function New({ title, summary, sourceUrl, pubDate, pubDateStr }) {
       <div className="summary">{summary.slice(0, 100)}...</div>
     </div>
   );
+}
+
+function HistoryGraph({countryData}) {
+    let historyData = [[{ type: 'date', label: 'Day' },'Confirmed','Deaths','Recoverd','Existing']];
+    let newData = [[{ type: 'date', label: 'Day' },'New Cases','Deaths']];
+    for (let key in countryData) {
+        let date = new Date(key);
+        historyData.push([date,countryData[key][0],countryData[key][1],countryData[key][2],countryData[key][3]])
+    }
+    newData.push([historyData[1][0],historyData[1][1],historyData[1][2]])
+    for(let i = 2; i < historyData.length; i++) {
+        newData.push([historyData[i][0], historyData[i][1] - historyData[i - 1][1], historyData[i][2]-historyData[i-1][2]])
+    }
+    const options = {
+        pointsVisible: true,
+
+            title: 'Australia Convid-19 History Chart',
+            // subtitle: 'in millions of dollars (USD)',
+
+    };
+    const newOptions = {
+        isStacked: true,
+
+            title: 'Australia Convid-19 New Cases vs Deaths Chart',
+            // subtitle: 'in millions of dollars (USD)',
+
+    };
+    return(
+        <div className="card">
+            <h2>History Graph</h2>
+            <Chart
+                width={'100%'}
+                height={'400px'}
+                chartType="LineChart"
+                loader={<div>Loading Chart</div>}
+                data={historyData}
+                options={options}
+                rootProps={{ 'data-testid': '3' }}
+            />
+            <Chart
+                width={'100%'}
+                height={'400px'}
+                chartType="ColumnChart"
+                loader={<div>Loading Chart</div>}
+                data={newData}
+                options={newOptions}
+
+            />
+
+        </div>
+
+    )
 }
 
 function News({ province }) {
@@ -375,7 +429,10 @@ function App() {
             {/*}*/}
           </Suspense>
           <Area area={area} onChange={setProvince} data={myData} />
+
         </div>
+          <HistoryGraph countryData={country}/>
+
         <News province={province} />
         <Summary />
         <Fallback />
