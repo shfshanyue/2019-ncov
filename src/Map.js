@@ -181,7 +181,7 @@ function Map ({ province, data, onClick }) {
   return (
     loading ? <div className="loading">Loading...</div> :
         <Chart
-            width= {isMobile?'100%':'auto'}
+            width= {window.innerWidth < 960?'100%':'auto'}
             left="auto"
             align="right"
             top="40%"

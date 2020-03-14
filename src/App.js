@@ -8,14 +8,14 @@ import all from './data/overall'
 import provinces from './data/area'
 
 import Tag from './Tag'
-
+import ReactGA from 'react-ga';
 import './App.css'
 import axios from 'axios'
 import Papa from "papaparse";
 
 dayjs.extend(relativeTime)
 
-import ReactGA from 'react-ga';
+
 ReactGA.initialize('UA-160673543-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
