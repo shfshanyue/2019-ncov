@@ -97,7 +97,7 @@ function News({ province }) {
     //   </div>
     // </div>
     <div className="card">
-      <h2>Tweet Feed</h2>
+      <h2>Twitter Feed</h2>
       <div className="centerContent">
         <div className="selfCenter standardWidth">
           <TwitterTimelineEmbed
