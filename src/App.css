@@ -8,7 +8,7 @@ header i {
 }
 
 .due {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #888;
   font-weight: 400;
   padding-left: 1rem;
@@ -18,7 +18,7 @@ header i {
   font-size: 1.2rem;
   font-weight: 600;
   color: #f60;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   display: block;
 }
 
@@ -44,14 +44,14 @@ header i {
 }
 
 .province.header > div {
-  background-color: #f60;
-  color: #fcfcfc;
+  color: #000000;
 }
 
 .area,
 .confirmed,
 .death,
-.cured {
+.cured,
+.tested{
   border: 1px solid #fff;
   background-color: #f8f8f8;
   display: flex;
@@ -61,12 +61,13 @@ header i {
 
 .area {
   flex: 3;
-  padding: .4rem 0;
+  padding: 0.4rem 0;
   position: relative;
+  color: #212f3d;
 }
 
 .area.active::before {
-  content: '.';
+  content: ".";
   display: block;
   position: absolute;
   font-size: 0;
@@ -81,17 +82,60 @@ header i {
   transform: translate(0, -50%);
 }
 
+.area.header {
+  background-color: #d5d8dc;
+  /*font-size: 80%;*/
+}
+
 .confirmed,
 .death,
-.cured {
-  padding: .3rem 0;
+.cured,
+.tested
+{
+  padding: 0.3rem 0;
   flex: 2;
+}
+
+.confirmed {
+  color: #e74c3c;
+}
+
+.confirmed.header {
+  background-color: #fadbd8;
+  font-size: 80%;
+}
+.cured {
+  color: #00b321;
+}
+
+.cured.header {
+  background-color: #d5f5e3;
+  font-size: 80%;
+}
+
+.tested {
+  color: #a569bd;
+}
+
+.tested.header {
+  background-color: #bb8fce ;
+  font-size: 80%;
+}
+
+.death {
+  color: #a93226;
+}
+
+.death.header {
+  background-color: #e6b0aa;
+  font-size: 80%;
 }
 
 .fallback {
   padding: 0 1rem 1rem;
   color: #999;
   text-align: center;
+  font-size: 70%;
 }
 
 a {
@@ -117,10 +161,10 @@ a {
 .info > li {
   list-style: none;
   background-color: #2834b9;
-  padding: .8rem 1.8rem;
+  padding: 0.8rem 1.8rem;
   border-radius: 8px;
   text-decoration: none;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   background-image: url(https://assets.dxycdn.com/gitrepo/bbs-mobile/dist/static/bg-image-3-2@2x.b56753cd.png);
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -129,7 +173,7 @@ a {
 
 .tip {
   color: #888;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   /* border-left: 1px solid #f60; */
 }
 
@@ -139,4 +183,16 @@ h2 small {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.more {
+  font-size: 70%;
+}
+
+.mapPopup {
+  background: white;
+  color: #3f618c;
+  font-weight: 400;
+  padding: 5px;
+  border-radius: 2px;
 }

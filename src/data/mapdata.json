@@ -1,0 +1,452 @@
+[
+  {
+    "id": "m00001",
+    "date": "Tuesday 10/03/2020",
+    "time": "12:30pm – 2:00pm",
+    "name": "Mary Miller Café, Fitzroy North",
+    "state": "Victoria",
+    "onset of symptoms up to": "24/3/20",
+    "coor": ["-37.776845", " 144.987074"],
+    "type": "0"
+  },
+  {
+    "id": "m00002",
+    "date": "Tuesday 10/03/2020",
+    "time": "8:00am – 9:30am",
+    "name": "No. 19 Café, Ascot Vale",
+    "state": "Victoria",
+    "onset of symptoms up to": "24/3/20",
+    "coor": ["-37.773059", " 144.916153"],
+    "type": "0"
+  },
+  {
+    "id": "m00003",
+    "date": "Tuesday 10/03/2020",
+    "time": "Arriving at 6:00am",
+    "name": "Emirates flight EK0406 from Dubai to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "24/3/20",
+    "coor": ["-37.672278", " 144.851175"],
+    "type": "0"
+  },
+  {
+    "id": "m00004",
+    "date": "Monday 09/03/2020",
+    "time": "Departing at 6:00pm",
+    "name": "Qantas flight QF459 from Sydney to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "23/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00005",
+    "date": "Monday 09/03/2020",
+    "time": "Departing at 12:00pm",
+    "name": "Qantas flight QF430 from Melbourne to Sydney",
+    "state": "Victoria",
+    "onset of symptoms up to": "23/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00006",
+    "date": "Sunday 08/03/2020",
+    "time": "5:15pm – 11:30pm",
+    "name": "T20 Cricket World Cup Final, Melbourne Cricket Ground, MCC Members Level 2",
+    "state": "Victoria",
+    "onset of symptoms up to": "22/3/20",
+    "coor": ["-37.819814", " 144.983471"],
+    "type": "0"
+  },
+  {
+    "id": "m00007",
+    "date": "Sunday 08/03/2020",
+    "time": "10:00am – 4:00pm",
+    "name": "Myrtle Oval, Macleay Park, North Balwyn",
+    "state": "Victoria",
+    "onset of symptoms up to": "22/3/20",
+    "coor": ["-37.800857", " 145.075181"],
+    "type": "0"
+  },
+  {
+    "id": "m00008",
+    "date": "Sunday 08/03/2020",
+    "time": "8:30am – 5:00pm",
+    "name": "Ramsden Street Oval, Clifton Hill",
+    "state": "Victoria",
+    "onset of symptoms up to": "22/3/20",
+    "coor": ["-37.791837", " 145.003320"],
+    "type": "0"
+  },
+  {
+    "id": "m00009",
+    "date": "Sunday 08/03/2020",
+    "time": "Arrived 7:00am",
+    "name": "Virgin Australia flight VA24 from Los Angeles to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "22/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00010",
+    "date": "Saturday 07/03/2020",
+    "time": "Evening",
+    "name": "AAMI Park (Rebels vs Lions rugby game)",
+    "state": "Victoria",
+    "onset of symptoms up to": "21/03/2020",
+    "coor": ["-37.825005", " 144.983814"],
+    "type": "0"
+  },
+  {
+    "id": "m00011",
+    "date": "Saturday 07/03/2020",
+    "time": "6:00pm – 10:00pm",
+    "name": "Albert Park Hotel",
+    "state": "Victoria",
+    "onset of symptoms up to": "21/3/20",
+    "coor": ["-37.825005", " 144.983814"],
+    "type": "0"
+  },
+  {
+    "id": "m00012",
+    "date": "Saturday 07/03/2020",
+    "time": "2:00pm – 3:00pm",
+    "name": "South Melbourne Market",
+    "state": "Victoria",
+    "onset of symptoms up to": "21/3/20",
+    "coor": ["-37.831845", " 144.955896"],
+    "type": "0"
+  },
+  {
+    "id": "m00013",
+    "date": "Saturday 07/03/2020",
+    "time": "1:00pm – 6:00pm",
+    "name": "Coles Waurn Ponds",
+    "state": "Victoria",
+    "onset of symptoms up to": "21/3/20",
+    "coor": ["-38.199037", " 144.318418"],
+    "type": "0"
+  },
+  {
+    "id": "m00014",
+    "date": "Saturday 07/03/2020",
+    "time": "Unsure",
+    "name": "Ashburton Park",
+    "state": "Victoria",
+    "onset of symptoms up to": "21/3/20",
+    "coor": ["-37.863086", " 145.086915"],
+    "type": "0"
+  },
+  {
+    "id": "m00015",
+    "date": "Saturday 07/03/2020",
+    "time": "Arrived 7:00am",
+    "name": "Virgin Australia flight VA24 from Los Angeles to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "21/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00016",
+    "date": "Friday 06/03/2020",
+    "time": "Arrived 9am",
+    "name": "Malaysia Airways flight MH0149 from Kuala Lumpur to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "20/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00017",
+    "date": "Friday 06/03/2020",
+    "time": "6pm – 7pm",
+    "name": "Pho Hung Vuong 2 Vietnamese Restaurant in Richmond",
+    "state": "Victoria",
+    "onset of symptoms up to": "20/3/20",
+    "coor": ["-37.809968", " 144.995144"],
+    "type": "0"
+  },
+  {
+    "id": "m00018",
+    "date": "Friday 06/03/2020",
+    "time": "Arrived 9:40am",
+    "name": "Qantas flight QF94 from Los Angeles to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "20/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00019",
+    "date": "Friday 06/03/2020",
+    "time": "8:45am – 5:00pm",
+    "name": "Coles Waurn Ponds",
+    "state": "Victoria",
+    "onset of symptoms up to": "20/3/20",
+    "coor": ["-38.198995", " 144.318471"],
+    "type": "0"
+  },
+  {
+    "id": "m00020",
+    "date": "Friday 06/03/2020",
+    "time": "8:30am – 10:00am",
+    "name": "South Melbourne Market",
+    "state": "Victoria",
+    "onset of symptoms up to": "20/3/20",
+    "coor": ["-37.831845", " 144.955896"],
+    "type": "0"
+  },
+  {
+    "id": "m00021",
+    "date": "Friday 06/03/2020",
+    "time": "Arrived 00:15am",
+    "name": "Emirates flight EK404 from Singapore to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "20/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00022",
+    "date": "Thursday 5/03/2020",
+    "time": "7:30pm – 10:30pm",
+    "name": "Cinema Nova, Carlton (Movie: The Amber Light)",
+    "state": "Victoria",
+    "onset of symptoms up to": "19/3/20",
+    "coor": ["-37.797814", " 144.967985"],
+    "type": "0"
+  },
+  {
+    "id": "m00023",
+    "date": "Thursday 5/03/2020",
+    "time": "Departing around 5:40pm",
+    "name": "VLine train from Southern Cross to Geelong",
+    "state": "Victoria",
+    "onset of symptoms up to": "19/3/20",
+    "coor": ["-37.818268", " 144.952479"],
+    "type": "0"
+  },
+  {
+    "id": "m00024",
+    "date": "Tuesday 3/03/2020",
+    "time": "12:30 – 3:30pm",
+    "name": "Wine by Sam - Seymour",
+    "state": "Victoria",
+    "onset of symptoms up to": "17/3/20",
+    "coor": ["-37.028275", " 145.143338"],
+    "type": "0"
+  },
+  {
+    "id": "m00025",
+    "date": "Tuesday 3/03/2020 – Thursday 5/03/2020",
+    "time": "3/03/2020: 9:00am – 12:00pm; 4/03/2020: 11:00am – 1:00pm; 5/03/2020: 1:00pm – 4:30pm",
+    "name": "La Trobe University, Bundoora Campus",
+    "state": "Victoria",
+    "onset of symptoms up to": "17/03/2020 – 19/03/2020",
+    "coor": ["-37.720446", " 145.048468"],
+    "type": "0"
+  },
+  {
+    "id": "m00026",
+    "date": "Monday 02/03/2020",
+    "time": "Arrived 4:20pm",
+    "name": "Virgin Australia flight VA682 from Perth to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "16/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00027",
+    "date": "Monday 02/03/2020",
+    "time": "Departing around 5:40pm",
+    "name": "VLine train from Geelong to Southern Cross",
+    "state": "Victoria",
+    "onset of symptoms up to": "16/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00028",
+    "date": "Monday 02/03/2020",
+    "time": "Departing between 7:00 – 7:15pm",
+    "name": "Metro train from Southern Cross to Camberwell",
+    "state": "Victoria",
+    "onset of symptoms up to": "16/3/20",
+    "coor": ["-37.826473", " 145.059436"],
+    "type": "0"
+  },
+  {
+    "id": "m00029",
+    "date": "Monday 02/03/2020 – Friday 06/03/2020",
+    "time": "Patients and staff that attended the clinic any time between Monday 02/03/2020 – Friday 06/03/2020",
+    "name": "Toorak Clinic; 575 Malvern Rd, Toorak",
+    "state": "Victoria",
+    "onset of symptoms up to": "14 days from visiting the clinic (16 – 20 March 2020)",
+    "coor": ["-37.847949", " 145.005577"],
+    "type": "0"
+  },
+  {
+    "id": "m00030",
+    "date": "Saturday 29/02/2020",
+    "time": "Arrived 9:30am",
+    "name": "United Airlines flight UA0060 from San Francisco to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "14/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00031",
+    "date": "Saturday 29/02/2020",
+    "time": "Arrived 10:50am",
+    "name": "Singapore Airlines flight SQ237 from Singapore to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "14/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00032",
+    "date": "Friday 28/02/2020",
+    "time": "10:50am (Singapore time)",
+    "name": "Malindo Air flight OD177 from Denpasar to Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "13/3/20",
+    "coor": "",
+    "type": "0"
+  },
+  {
+    "id": "m00033",
+    "date": "",
+    "time": "",
+    "name": "The Alfred Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.845510", " 144.981856"],
+    "type": "1"
+  },
+  {
+    "id": "m00034",
+    "date": "",
+    "time": "",
+    "name": "Albury Wodonga",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-36.131814", " 146.879837"],
+    "type": "1"
+  },
+  {
+    "id": "m00035",
+    "date": "",
+    "time": "",
+    "name": "Austin Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.756370", " 145.059588"],
+    "type": "1"
+  },
+  {
+    "id": "m00036",
+    "date": "",
+    "time": "",
+    "name": "Barwon Health – Geelong",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-38.152096", " 144.365334"],
+    "type": "1"
+  },
+  {
+    "id": "m00037",
+    "date": "",
+    "time": "",
+    "name": "Box Hill Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.813904", " 145.118432"],
+    "type": "1"
+  },
+  {
+    "id": "m00038",
+    "date": "",
+    "time": "",
+    "name": "Monash Clayton",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.920496", " 145.123560"],
+    "type": "1"
+  },
+  {
+    "id": "m00039",
+    "date": "",
+    "time": "",
+    "name": "Northern Hospital.",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.652508", " 145.014533"],
+    "type": "1"
+  },
+  {
+    "id": "m00040",
+    "date": "",
+    "time": "",
+    "name": "Peninsula Health – Frankston",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-38.150661", " 145.128516"],
+    "type": "1"
+  },
+  {
+    "id": "m00041",
+    "date": "",
+    "time": "",
+    "name": "The Royal Melbourne Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.798750", " 144.956196"],
+    "type": "1"
+  },
+  {
+    "id": "m00042",
+    "date": "",
+    "time": "",
+    "name": "St Vincent's Hospital Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.807291", " 144.975061"],
+    "type": "1"
+  },
+  {
+    "id": "m00043",
+    "date": "",
+    "time": "",
+    "name": "Sunshine Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.759241", " 144.816534"],
+    "type": "1"
+  },
+  {
+    "id": "m00044",
+    "date": "",
+    "time": "",
+    "name": "Wonthaggi Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-38.608515", " 145.580893"],
+    "type": "1"
+  },
+  {
+    "id": "m00045",
+    "date": "",
+    "time": "",
+    "name": "Ballarat Base Hospital.",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.558656", " 143.847227"],
+    "type": "1"
+  }
+]

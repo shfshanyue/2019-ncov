@@ -1,0 +1,528 @@
+[
+  {
+    "id": "m00033",
+    "address": "55 Commercial Rd, Melbourne VIC 3004, Australia",
+    "phone": "+61 3 9076 2000",
+    "name": "The Alfred Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.845510", "144.981856"],
+    "type": "1"
+  },
+  {
+    "id": "m00034",
+    "address": "53-81 Vermont St, Wodonga VIC 3690, Australia",
+    "phone": "+61 2 6051 7111",
+    "name": "Albury Wodonga Health",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-36.131814", "146.879837"],
+    "type": "1"
+  },
+  {
+    "id": "m00035",
+    "address": "145 Studley Rd, Heidelberg VIC 3084, Australia",
+    "phone": "+61 3 9496 5000",
+    "name": "Austin Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.756370", "145.059588"],
+    "type": "1"
+  },
+  {
+    "id": "m00036",
+    "address": "Bellerine St, Geelong VIC 3220, Australia",
+    "phone": "+61 3 4215 0000",
+    "name": "Barwon Health – Geelong",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-38.152096", "144.365334"],
+    "type": "1"
+  },
+  {
+    "id": "m00037",
+    "address": "8 Arnold St, Box Hill VIC 3128, Australia",
+    "phone": "+61 1300 342 255",
+    "name": "Box Hill Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.813904", "145.118432"],
+    "type": "1"
+  },
+  {
+    "id": "m00038",
+    "address": "246 Clayton Rd, Clayton VIC 3168, Australia",
+    "phone": "+61 3 9594 6666",
+    "name": "Monash Medical Centre",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.920496", "145.123560"],
+    "type": "1"
+  },
+  {
+    "id": "m00039",
+    "address": "185 Cooper St, Epping VIC 3076, Australia",
+    "phone": "+61 3 8405 8000",
+    "name": "Northern Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.652508", "145.014533"],
+    "type": "1"
+  },
+  {
+    "id": "m00040",
+    "address": "2 Hastings Rd, Frankston VIC 3199, Australia",
+    "phone": "+61 3 9784 7777",
+    "name": "Peninsula Health – Frankston",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-38.150661", "145.128516"],
+    "type": "1"
+  },
+  {
+    "id": "m00041",
+    "address": "300 Grattan St, Parkville VIC 3050, Australia",
+    "phone": "+61 3 9342 7000",
+    "name": "The Royal Melbourne Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.798750", "144.956196"],
+    "type": "1"
+  },
+  {
+    "id": "m00042",
+    "address": "41 Victoria Parade, Fitzroy VIC 3065, Australia",
+    "phone": "+61 3 9231 2211",
+    "name": "St Vincent's Hospital Melbourne",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.807291", "144.975061"],
+    "type": "1"
+  },
+  {
+    "id": "m00043",
+    "address": "176 Furlong Rd, St Albans VIC 3021, Australia",
+    "phone": "+61 3 8345 1333",
+    "name": "Sunshine Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.759241", "144.816534"],
+    "type": "1"
+  },
+  {
+    "id": "m00044",
+    "address": "Wonthaggi VIC 3995, Australia",
+    "phone": "",
+    "name": "Wonthaggi Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-38.608515", "145.580893"],
+    "type": "1"
+  },
+  {
+    "id": "m00045",
+    "address": "1 Drummond St N, Ballarat Central VIC 3350, Australia",
+    "phone": "+61 3 5320 4000",
+    "name": "Ballarat Base Hospital",
+    "state": "Victoria",
+    "onset of symptoms up to": "",
+    "coor": ["-37.558656", "143.847227"],
+    "type": "1"
+  },
+  {
+    "id": "m00101",
+    "address": "361 Howick St, West Bathurst NSW 2795",
+    "phone": "(02) 6330 5000",
+    "name": "Bathurst Base Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.405934", "149.572418"],
+    "type": "1"
+  },
+  {
+    "id": "m00102",
+    "address": "18 Blacktown Rd, Blacktown NSW 2148",
+    "phone": "(02) 9881 8000",
+    "name": "Blacktown Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.775534", "150.917084"],
+    "type": "1"
+  },
+  {
+    "id": "m00103",
+    "address": "1 Woodlands Rd, Katoomba NSW 2780",
+    "phone": "(02) 4784 6500",
+    "name": "Blue Mountains Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.705167", "150.320949"],
+    "type": "1"
+  },
+  {
+    "id": "m00104",
+    "address": "176 Thomas St, Broken Hill NSW 2880",
+    "phone": "(08) 8080 1333",
+    "name": "Broken Hill Health Service",
+    "state": "New South Wales",
+    "coor": ["-31.947355", "141.455634"],
+    "type": "1"
+  },
+  {
+    "id": "m00105",
+    "address": "Therry Rd, Campbelltown NSW 2560",
+    "phone": "(02) 4634 3000",
+    "name": "Campbelltown Hospital",
+    "state": "New South Wales",
+    "coor": ["-34.077817", "150.806017"],
+    "type": "1"
+  },
+  {
+    "id": "m00106",
+    "address": "Myall St, Dubbo NSW 2830",
+    "phone": "(02) 6809 6809",
+    "name": "Dubbo Base Hospital",
+    "state": "New South Wales",
+    "coor": ["-32.239989", "148.621432"],
+    "type": "1"
+  },
+  {
+    "id": "m00107",
+    "address": "Holden St, Gosford NSW 2250",
+    "phone": "(02) 4320 2111",
+    "name": "Gosford Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.420921", "151.340800"],
+    "type": "1"
+  },
+  {
+    "id": "m00108",
+    "address": "1 Noorebar Ave, Griffith NSW 2680",
+    "phone": "(02) 6969 5555",
+    "name": "Griffith Base Hospital",
+    "state": "New South Wales",
+    "coor": ["-34.281736", "146.043323"],
+    "type": "1"
+  },
+  {
+    "id": "m00109",
+    "address": "Palmerston Rd, Hornsby NSW 2077",
+    "phone": "(02) 9477 9123",
+    "name": "Hornsby Ku-ring-gai Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.702311", "151.112537"],
+    "type": "1"
+  },
+  {
+    "id": "m00110",
+    "address": "Lookout Rd, New Lambton Heights NSW 2305",
+    "phone": "(02) 4921 3000",
+    "name": "John Hunter Hospital",
+    "state": "New South Wales",
+    "coor": ["-32.922471", "151.692771"],
+    "type": "1"
+  },
+  {
+    "id": "m00111",
+    "address": "60 Uralba St, Lismore NSW 2480",
+    "phone": "(02) 6624 0200",
+    "name": "Lismore Base Hospital",
+    "state": "New South Wales",
+    "coor": ["-28.808814", "153.292098"],
+    "type": "1"
+  },
+  {
+    "id": "m00112",
+    "address": "2 Col Drewe Dr, South Bowenfels NSW 2790",
+    "phone": "(02) 6350 2300",
+    "name": "Lithgow Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.498597", "150.127366"],
+    "type": "1"
+  },
+  {
+    "id": "m00113",
+    "address": "Elizabeth &, Goulburn St, Liverpool NSW 2170",
+    "phone": "(02) 8738 3000",
+    "name": "Liverpool Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.920076", "150.932199"],
+    "type": "1"
+  },
+  {
+    "id": "m00114",
+    "address": "Coronation Street, Mona Vale NSW 2103",
+    "phone": "(02) 9998 0333",
+    "name": "Mona Vale Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.686511", "151.306914"],
+    "type": "1"
+  },
+  {
+    "id": "m00115",
+    "address": "Derby St, Kingswood NSW 2747",
+    "phone": "(02) 4734 2000",
+    "name": "Nepean Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.758620", "150.713759"],
+    "type": "1"
+  },
+  {
+    "id": "m00116",
+    "address": "105 Frenchs Forest Rd W, Frenchs Forest NSW 2086",
+    "phone": "(02) 9105 5000",
+    "name": "Northern Beaches Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.750967", "151.233027"],
+    "type": "1"
+  },
+  {
+    "id": "m00117",
+    "address": "Hospital Rd, Concord NSW 2138",
+    "phone": "(02) 9767 5000",
+    "name": "Concord Hospital (NSW Institute of Sports Medicine)",
+    "state": "New South Wales",
+    "coor": ["-33.837351", "151.092599"],
+    "type": "1"
+  },
+  {
+    "id": "m00118",
+    "address": "1530 Forest Road, Orange NSW 2800",
+    "phone": "(02) 6369 3000",
+    "name": "Orange Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.317106", "149.093925"],
+    "type": "1"
+  },
+  {
+    "id": "m00119",
+    "address": "Barker Street, Randwick NSW 2031",
+    "phone": "(02) 9382 2222",
+    "name": "Prince of Wales Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.918878", "151.239259"],
+    "type": "1"
+  },
+  {
+    "id": "m00120",
+    "address": "103-105 Redfern Street, Redfern NSW 2016",
+    "phone": "(02) 9395 0444",
+    "name": "Redfern Health Centre",
+    "state": "New South Wales",
+    "coor": ["-33.892926", "151.203312"],
+    "type": "1"
+  },
+  {
+    "id": "m00121",
+    "address": "Reserve Road, St Leonards NSW 2065",
+    "phone": "(02) 9926 7111",
+    "name": "Royal North Shore Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.820592", "151.191689"],
+    "type": "1"
+  },
+  {
+    "id": "m00122",
+    "address": "50 Missenden Road, Camperdown NSW 2050",
+    "phone": "(02) 9515 6111",
+    "name": "Royal Prince Alfred Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.889057", "151.182870"],
+    "type": "1"
+  },
+  {
+    "id": "m00123",
+    "address": "Denistone Road, Eastwood NSW 2122",
+    "phone": "(02) 9858 7888",
+    "name": "Ryde Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.794708", "151.089834"],
+    "type": "1"
+  },
+  {
+    "id": "m00124",
+    "address": "390 Victoria Street , Darlinghurst NSW 2010",
+    "phone": "(02) 8382 1111",
+    "name": "St Vincent's Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.880447", "151.220763"],
+    "type": "1"
+  },
+  {
+    "id": "m00125",
+    "address": "​8 Macquarie Street, Sydney 2000",
+    "phone": "(02) 9382 7111",
+    "name": "Sydney and Sydney Eye Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.868001", "151.212284"],
+    "type": "1"
+  },
+  {
+    "id": "m00126",
+    "address": "High Street, Randwick NSW 2031",
+    "phone": "(02) 9382 1111",
+    "name": "Sydney Children’s Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.916968", "151.238273"],
+    "type": "1"
+  },
+  {
+    "id": "m00127",
+    "address": "575 Canterbury Road, Campsie 2194",
+    "phone": "(02) 9787 0000",
+    "name": "The Canterbury Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.919228", "151.098407"],
+    "type": "1"
+  },
+  {
+    "id": "m00128",
+    "address": "Cnr Hawkesbury Road and Hainsworth Street \nWestmead​ NSW 2145",
+    "phone": "(02) 9845 0000",
+    "name": "The Children’s Hospital at Westmead",
+    "state": "New South Wales",
+    "coor": ["-33.801809", "150.992716"],
+    "type": "1"
+  },
+  {
+    "id": "m00129",
+    "address": "Cnr Kingsway and Kareena Road Caringbah 2229",
+    "phone": "(02) 9540 7111",
+    "name": "The Sutherland Hospital",
+    "state": "New South Wales",
+    "coor": ["-34.037110", "151.114836"],
+    "type": "1"
+  },
+  {
+    "id": "m00130",
+    "address": "Powell Street, Tweed Heads NSW 2485",
+    "phone": "(07) 5506 7000",
+    "name": "The Tweed Hospital",
+    "state": "New South Wales",
+    "coor": ["-28.177131", "153.545435"],
+    "type": "1"
+  },
+  {
+    "id": "m00131",
+    "address": "Cnr Hawkesbury Road and Hainsworth Street\nWestmead NSW 2145",
+    "phone": "(02) 8890 5555",
+    "name": "Westmead Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.804683", "150.988597"],
+    "type": "1"
+  },
+  {
+    "id": "m00132",
+    "address": "Loftus Street, Wollongong 2500",
+    "phone": "(02) 4222 5000",
+    "name": "Wollongong Hospital",
+    "state": "New South Wales",
+    "coor": ["-34.424751", "150.883529"],
+    "type": "1"
+  },
+  {
+    "id": "m00133",
+    "address": "Pacific Highway, Hamlyn Terrace 2259",
+    "phone": "(02) 4394 8000",
+    "name": "Wyong Hospital",
+    "state": "New South Wales",
+    "coor": ["-33.260849", "151.479546"],
+    "type": "1"
+  },
+  {
+    "id": "m00134",
+    "address": "Port Rd, Adelaide SA 5000",
+    "phone": "(08) 7074 0000",
+    "name": "Royal Adelaide Hospital",
+    "state": "South Australia",
+    "coor": ["-34.920682", "138.587182"],
+    "type": "1"
+  },
+  {
+    "id": "m00135",
+    "address": "Flinders Dr, Bedford Park SA 5042",
+    "phone": "(08) 8204 5511",
+    "name": "Flinders Medical Centre",
+    "state": "South Australia",
+    "coor": ["-35.021153", "138.569006"],
+    "type": "1"
+  },
+  {
+    "id": "m00136",
+    "address": "Haydown Rd, Elizabeth Vale SA 5112",
+    "phone": "(08) 8182 9000",
+    "name": "Lyell McEwin Hospital",
+    "state": "South Australia",
+    "coor": ["-34.747302", "138.664674"],
+    "type": "1"
+  },
+  {
+    "id": "m00137",
+    "address": "72 King William Rd, North Adelaide SA 5006",
+    "phone": "(08) 8161 7000",
+    "name": "Women’s and Children’s Hospital",
+    "state": "South Australia",
+    "coor": ["-34.911275", "138.600121"],
+    "type": "1"
+  },
+  {
+    "id": "m00138",
+    "address": "87 Wellington Rd, Mount Barker SA 5251",
+    "phone": "(08) 8393 1777",
+    "name": "Mount Barker Hospital",
+    "state": "South Australia",
+    "coor": ["-35.082021", "138.869987"],
+    "type": "1"
+  },
+  {
+    "id": "m00139",
+    "address": "Ground Floor, Ainslie House, 48 Murray Street, Perth",
+    "phone": "(08) 9224 2244",
+    "name": "Royal Perth Hospital",
+    "state": "Western Australia",
+    "coor": ["-31.953528", "115.866427"],
+    "type": "1"
+  },
+  {
+    "id": "m00140",
+    "address": "C-block location within Sir Charles Hospital, Hospital Ave, Nedlands WA 6009,",
+    "phone": "(08) 6457 3333",
+    "name": "Sir Charles Gairdner Hospital",
+    "state": "Western Australia",
+    "coor": ["-31.966544", "115.816344"],
+    "type": "1"
+  },
+  {
+    "id": "m00141",
+    "address": "C Block, Hospital Avenue, Nedlands",
+    "phone": "(08) 6152 2222",
+    "name": "Fiona Stanley Hospital",
+    "state": "Western Australia",
+    "coor": ["-32.069162", "115.848537"],
+    "type": "1"
+  },
+  {
+    "id": "m00142",
+    "address": "1 Hospital Blvd, Southport QLD 4215",
+    "phone": "1300 744 284",
+    "name": "Gold Coast University Hospital",
+    "state": "Queensland",
+    "coor": ["-27.959418", "153.381786"],
+    "type": "1"
+  },
+  {
+    "id": "m00143",
+    "address": "2 Campus Cres, Robina, QLD, 4226",
+    "phone": "1300 744 284",
+    "name": "Robina Health Precinct Building",
+    "state": "Queensland",
+    "coor": ["-28.074430", "153.378251"],
+    "type": "1"
+  },
+  {
+    "id": "m00144",
+    "address": "24 Parkinson St, Weston ACT 2611",
+    "phone": "(02) 5124 9977",
+    "name": "Weston Creek Walk-in Centre",
+    "state": "ACT",
+    "coor": ["-35.341812", "149.054738"],
+    "type": "1"
+  }
+]
