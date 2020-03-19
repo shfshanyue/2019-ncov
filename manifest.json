@@ -1,0 +1,25 @@
+{
+  "short_name": "Covid-19-AU",
+  "name": "Covid-19-AU",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://pic4.zhimg.com/v2-7de8d88befb79738644b55634d2f3fba_xl.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://pic4.zhimg.com/v2-7de8d88befb79738644b55634d2f3fba_xl.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f60",
+  "background_color": "#ffffff"
+}
