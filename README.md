@@ -17,7 +17,7 @@ node scripts/build-origin.js
 
 ## 数据来源
 
-数据爬自丁香园，使用脚本 `build-origin.js` 获取数据。数据每半个小时爬取一次，直接注入到前端，因此对丁香园造成的压力很小。
+数据爬自[丁香园](https://ncov.dxy.cn/ncovh5/view/pneumonia?from=timeline)，使用脚本 `build-origin.js` 获取数据。
 
 另外，如果你需要更详细的数据，可以参考项目 [BlankerL/DXY-2019-nCoV-Crawler](https://github.com/BlankerL/DXY-2019-nCoV-Crawler)。
 
